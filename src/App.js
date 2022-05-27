@@ -1,8 +1,12 @@
+import Header from "./components/Header";
+
 import "./style/general.css";
 
 const App = () => {
   return (
-    <p>hey</p>
+    <div>
+      <Header/>
+    </div>
   );
 }
 
