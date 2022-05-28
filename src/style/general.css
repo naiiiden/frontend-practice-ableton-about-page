@@ -157,6 +157,7 @@ img {
   font-family: inherit;
   font-weight: 500;
   color: #ff764d;
+  cursor: pointer;
 }
 
 .desktop--header .header--nav .header--nav--ul a {
