@@ -1,16 +1,15 @@
 import { useState } from "react";
-import logo from "../images/logo.svg";
+import { ReactComponent as Logo } from "../images/logo.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
     return (
         <header className="mobile--header">
-            <img src={logo} className="mobile--header--logo"/>
-            <button aria-label="toggle navigation" className="mobile--header--menu--toggle" onClick={() => setOpenMenu(!openMenu)}>
+            <Logo fill={!openMenu ? "#000" : "#fff"} className="mobile--header--logo"/>
+            <button style={{color: `${!openMenu ? "#000" : "#fff"}`}} aria-label="toggle navigation" className="mobile--header--menu--toggle" onClick={() => setOpenMenu(!openMenu)}>
                 Menu <span className="button--span">{!openMenu ? "⏷" : "⏶"}</span>
             </button>
-            {/* &#x23F7; &#x23F6; */}
             <nav className="mobile--header--nav">
                 <ul className={`mobile--header--nav--ul ${!openMenu ? "" : "show"}`}>
                     <li><a href="">Live</a></li>

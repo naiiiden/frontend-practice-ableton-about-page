@@ -10,6 +10,7 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: Jost, sans-serif;
+  background-color: red;
 }
 
 img {
@@ -22,6 +23,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 1rem;
 }
 
