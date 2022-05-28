@@ -1,15 +1,18 @@
+import { useState } from "react";
 import logo from "../images/logo.svg";
 
 const Header = () => {
+    const [openMenu, setOpenMenu] = useState(false);
+
     return (
         <header className="mobile--header">
             <img src={logo}/>
-            <button aria-label="toggle navigation" className="mobile--header--menu--toggle">
+            <button aria-label="toggle navigation" className="mobile--header--menu--toggle" onClick={() => setOpenMenu(!openMenu)}>
                 Menu <span>⏷ ⏶</span>
             </button>
             {/* &#x23F7; &#x23F6; */}
             <nav className="mobile--header--nav">
-                <ul className="mobile--header--nav--ul">
+                <ul className={`mobile--header--nav--ul ${!openMenu ? "" : "show"}`}>
                     <li><a href="">Live</a></li>
                     <li><a href="">Push</a></li>
                     <li><a href="">Link</a></li>
