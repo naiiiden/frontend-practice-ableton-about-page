@@ -78,46 +78,45 @@ const Header = () => {
                             <li className="li--link--live"><a href="" className="link--live">Try Live for free</a></li>
                             <li><a href="" className="link--login">Log in or register</a></li>
                         </ul>
-                        <div className={`header--nav--more--ul ${!openMore ? "" : "show"}`}>
-                            <h3 className="header--nav--more--ul--heading">More on Ableton.com:</h3>
-                            <ul className="nav--more--ul">
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">Ableton for the Classroom</a></li>
-                                <li><a href="">Ableton for Colleges and Universities</a></li>
-                                <li><a href="">Certified Training</a></li>
-                                <li><a href="" className="link--about">About Ableton</a></li>
-                                <li><a href="">Jobs</a></li>
-                                <li><a href="">Apprenticeships</a></li>
-                            </ul>
-
-                            <h3 className="header--nav--more--ul--heading">More from Ableton:</h3>
-                            <ul className="nav--more--ul2">
-                                <li>
-                                    <a href="" className="nav--more--ul2--link">
-                                        <h4>Loop</h4>
-                                        <p>Watch talks, Performances and Features from Ableton's Summit for Music Makers</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" className="nav--more--ul2--link">
-                                        <h4>Learning Music</h4>
-                                        <p>Learn the fundamentals of music making right in your browser.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" className="nav--more--ul2--link">
-                                        <h4>Learning Synths</h4>
-                                        <p>Get started with synthesis using a web-based synth and accompanying lessons.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" className="nav--more--ul2--link">
-                                        <h4>Making Music</h4>
-                                        <p>Some tips from 74 Creative Strategies for Electronic Producers.</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    </nav>
+                    <nav className={`header--nav--more--ul ${!openMore ? "" : "show"}`}>
+                        <h3 className="header--nav--more--ul--heading">More on Ableton.com:</h3>
+                        <ul className="nav--more--ul">
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Ableton for the Classroom</a></li>
+                            <li><a href="">Ableton for Colleges and Universities</a></li>
+                            <li><a href="">Certified Training</a></li>
+                            <li><a href="" className="link--about">About Ableton</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">Apprenticeships</a></li>
+                        </ul>
+                        <h3 className="header--nav--more--ul--heading">More from Ableton:</h3>
+                        <ul className="nav--more--ul2">
+                            <li>
+                                <a href="" className="nav--more--ul2--link">
+                                    <h4>Loop</h4>
+                                    <p>Watch talks, Performances and Features from Ableton's Summit for Music Makers</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" className="nav--more--ul2--link">
+                                    <h4>Learning Music</h4>
+                                    <p>Learn the fundamentals of music making right in your browser.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" className="nav--more--ul2--link">
+                                    <h4>Learning Synths</h4>
+                                    <p>Get started with synthesis using a web-based synth and accompanying lessons.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" className="nav--more--ul2--link">
+                                    <h4>Making Music</h4>
+                                    <p>Some tips from 74 Creative Strategies for Electronic Producers.</p>
+                                </a>
+                            </li>
+                        </ul>
                     </nav>
                 </header>
             )}

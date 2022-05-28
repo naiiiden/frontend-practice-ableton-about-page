@@ -87,11 +87,8 @@
 .desktop--header {
     padding: 1.25rem;
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
-
-    .header--logo {
-        
-    }
 
     .header--nav {
         flex-grow: 1;
@@ -134,12 +131,15 @@
             }
         }
     
-        .header--nav--more--ul {
-            display: none;
+    }
+    .header--nav--more--ul {
+        display: none;
+        width: 100%;
 
-            &.show {
-                display: flex;
-            }
+        &.show {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
         }
     }
 }
