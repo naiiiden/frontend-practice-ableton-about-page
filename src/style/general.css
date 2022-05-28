@@ -226,7 +226,32 @@ img {
 }
 
 .desktop--header .header--nav--more--ul.show .nav--more--ul2 a {
+  line-height: 1.5;
   text-decoration: none;
   color: #000;
+}
+
+@media screen and (min-width: 1280px) {
+  .desktop--header {
+    gap: 3rem 2rem;
+  }
+  .desktop--header .header--nav .header--nav--ul {
+    gap: 2.25rem;
+  }
+  .desktop--header .header--nav .header--nav--ul a.link--login {
+    font-size: 1rem;
+  }
+  .desktop--header .header--nav--more--ul.show .header--nav--more--ul--heading {
+    font-size: 1.875rem;
+  }
+  .desktop--header .header--nav--more--ul.show .header--nav--more--ul--heading:nth-of-type(2) {
+    margin-top: 2rem;
+  }
+  .desktop--header .header--nav--more--ul.show .nav--more--ul, .desktop--header .header--nav--more--ul.show .nav--more--ul2 {
+    font-size: 1.25rem;
+  }
+  .desktop--header .header--nav--more--ul.show .nav--more--ul.nav--more--ul, .desktop--header .header--nav--more--ul.show .nav--more--ul2.nav--more--ul {
+    gap: 2.25rem;
+  }
 }
 /*# sourceMappingURL=general.css.map */
