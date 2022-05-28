@@ -116,4 +116,70 @@ img {
   font-weight: 400;
   width: 13rem;
 }
+
+.desktop--header {
+  padding: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.desktop--header .header--nav {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.desktop--header .header--nav .header--nav--ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.75rem;
+}
+
+.desktop--header .header--nav .header--nav--ul .li--link--live {
+  margin-left: auto;
+}
+
+.desktop--header .header--nav .header--nav--ul .nav--ul--more--button {
+  border: none;
+  background: none;
+  font-size: 1.25rem;
+  font-family: inherit;
+  font-weight: 500;
+  color: #ff764d;
+}
+
+.desktop--header .header--nav .header--nav--ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.desktop--header .header--nav .header--nav--ul a.link--live {
+  color: #0000ff;
+}
+
+.desktop--header .header--nav .header--nav--ul a.link--login {
+  font-size: .875rem;
+  display: block;
+  margin-top: -.125rem;
+}
+
+.desktop--header .header--nav .header--nav--more--ul {
+  display: none;
+}
+
+.desktop--header .header--nav .header--nav--more--ul.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=general.css.map */

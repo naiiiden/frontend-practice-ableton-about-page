@@ -3,6 +3,7 @@ import { ReactComponent as Logo } from "../images/logo.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
+    const [openMore, setOpenMore] = useState(false);
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
 
     const updateMedia = () => setIsDesktop(window.innerWidth >= 1024);
@@ -73,11 +74,11 @@ const Header = () => {
                             <li><a href="">Shop</a></li>
                             <li><a href="">Packs</a></li>
                             <li><a href="">Help</a></li>
-                            <li><button aria-label="toggle navigation">More +</button></li>
-                            <li><a href="" className="link--live">Try Live for free</a></li>
+                            <li><button aria-label="toggle navigation" className="nav--ul--more--button" onClick={() => setOpenMore(!openMore)}>{openMore ? "More -" : "More +"}</button></li>
+                            <li className="li--link--live"><a href="" className="link--live">Try Live for free</a></li>
                             <li><a href="" className="link--login">Log in or register</a></li>
                         </ul>
-                        <div className="header--nav--more--ul">
+                        <div className={`header--nav--more--ul ${!openMore ? "" : "show"}`}>
                             <h3 className="header--nav--more--ul--heading">More on Ableton.com:</h3>
                             <ul className="nav--more--ul">
                                 <li><a href="">Blog</a></li>

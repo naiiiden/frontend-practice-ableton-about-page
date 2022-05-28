@@ -84,3 +84,62 @@
     }
 }
 
+.desktop--header {
+    padding: 1.25rem;
+    display: flex;
+    gap: 2rem;
+
+    .header--logo {
+        
+    }
+
+    .header--nav {
+        flex-grow: 1;
+        
+        .header--nav--ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            gap: 1.75rem;
+    
+            .li--link--live {
+                margin-left: auto;
+            }
+
+            .nav--ul--more--button {
+                border: none;
+                background: none;
+                font-size: 1.25rem;
+                font-family: inherit;
+                font-weight: 500;
+                color: $light-orange;
+            }
+    
+            a {
+                text-decoration: none;
+                color: #000;
+                font-size: 1.25rem;
+                font-weight: 500;
+                line-height: 1.5;
+
+                &.link--live {
+                    color: $blue;
+                }
+
+                &.link--login {
+                    font-size: .875rem;
+                    display: block;
+                    margin-top: -.125rem;
+                }
+            }
+        }
+    
+        .header--nav--more--ul {
+            display: none;
+
+            &.show {
+                display: flex;
+            }
+        }
+    }
+}
