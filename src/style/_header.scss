@@ -1,5 +1,5 @@
 .mobile--header {
-    // border: 1px solid red;
+    border-bottom: 2px solid #eee;
     padding: 1.25rem;
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +85,7 @@
 }
 
 .desktop--header {
+    border-bottom: 2px solid #eee;
     padding: 1.25rem;
     display: flex;
     flex-wrap: wrap;

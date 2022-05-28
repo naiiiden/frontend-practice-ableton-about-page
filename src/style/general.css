@@ -18,6 +18,7 @@ img {
 }
 
 .mobile--header {
+  border-bottom: 2px solid #eee;
   padding: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,6 +119,7 @@ img {
 }
 
 .desktop--header {
+  border-bottom: 2px solid #eee;
   padding: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
