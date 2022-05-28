@@ -3,11 +3,12 @@
     padding: 1.25rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 
     .mobile--header--logo {
         width: 60px;
         height: 28px;
+        z-index: 99;
     }
 
     .mobile--header--menu--toggle {
@@ -15,6 +16,8 @@
         background: none;
         font-size: 1.25rem;
         font-family: inherit;
+        font-weight: 500;
+        z-index: 99;
     }
 }
 
@@ -22,7 +25,61 @@
     display: none;
 
     &.show {
+        padding: 5rem 1.25rem 2rem 1.25rem;
+        background: $blue;
+        list-style-type: none;
         display: flex;
         flex-direction: column;
+        gap: 1.25rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        font-weight: 500;
+
+        &.mobile--login {
+            font-size: .875rem;
+            display: inline-block;
+        }
+
+        &.mobile--header--heading1--link {
+            font-size: .875rem;
+        }
+
+        &.mobile--about {
+            color: $light-orange;
+        }
+    }
+
+    .mobile--header--heading {
+        margin-top: 1rem;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .mobile--header--nav--ul--li--container {
+        margin-top: -1rem;
+        display: flex;
+        gap: 2rem;
+        overflow-x: scroll;
+
+        .mobile--header--nav--ul--li--subcontainer {
+            display: flex;
+            flex-direction: column;
+            gap: .25rem;
+            font-size: .875rem;
+
+            p {
+                font-weight: 400;
+                width: 13rem;
+            }
+        }
     }
 }

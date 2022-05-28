@@ -10,7 +10,6 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: Jost, sans-serif;
-  background-color: red;
 }
 
 img {
@@ -25,12 +24,13 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .mobile--header .mobile--header--logo {
   width: 60px;
   height: 28px;
+  z-index: 99;
 }
 
 .mobile--header .mobile--header--menu--toggle {
@@ -38,6 +38,8 @@ img {
   background: none;
   font-size: 1.25rem;
   font-family: inherit;
+  font-weight: 500;
+  z-index: 99;
 }
 
 .mobile--header--nav--ul {
@@ -45,6 +47,9 @@ img {
 }
 
 .mobile--header--nav--ul.show {
+  padding: 5rem 1.25rem 2rem 1.25rem;
+  background: #0000ff;
+  list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,5 +57,63 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 1.25rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mobile--header--nav--ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.mobile--header--nav--ul a.mobile--login {
+  font-size: .875rem;
+  display: inline-block;
+}
+
+.mobile--header--nav--ul a.mobile--header--heading1--link {
+  font-size: .875rem;
+}
+
+.mobile--header--nav--ul a.mobile--about {
+  color: #ff764d;
+}
+
+.mobile--header--nav--ul .mobile--header--heading {
+  margin-top: 1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.mobile--header--nav--ul .mobile--header--nav--ul--li--container {
+  margin-top: -1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+}
+
+.mobile--header--nav--ul .mobile--header--nav--ul--li--container .mobile--header--nav--ul--li--subcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .25rem;
+  font-size: .875rem;
+}
+
+.mobile--header--nav--ul .mobile--header--nav--ul--li--container .mobile--header--nav--ul--li--subcontainer p {
+  font-weight: 400;
+  width: 13rem;
 }
 /*# sourceMappingURL=general.css.map */

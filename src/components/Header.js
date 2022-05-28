@@ -21,7 +21,7 @@ const Header = () => {
                     <li><a href="">Try Live for free</a></li>
                     <li><a href="" className="mobile--login">Log in or register</a></li>
                     
-                    <li><h3 className="mobile--header--heading1">More on Ableton.com:</h3></li>
+                    <li><h3 className="mobile--header--heading">More on Ableton.com:</h3></li>
                     <li><a href="" className="mobile--header--heading1--link">Blog</a></li>
                     <li><a href="" className="mobile--header--heading1--link">Ableton for the Classroom</a></li>
                     <li><a href="" className="mobile--header--heading1--link">Ableton for Colleges and Universities</a></li>
@@ -30,7 +30,7 @@ const Header = () => {
                     <li><a href="" className="mobile--header--heading1--link">Jobs</a></li>
                     <li><a href="" className="mobile--header--heading1--link">Apprenticeships</a></li>
 
-                    <li><h3 className="mobile--header--heading2">More from Ableton:</h3></li>
+                    <li><h3 className="mobile--header--heading">More from Ableton:</h3></li>
                     <li className="mobile--header--nav--ul--li--container">
                         <a href="" className="mobile--header--nav--ul--li--subcontainer">
                             <h4>Loop</h4>
