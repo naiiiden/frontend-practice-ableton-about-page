@@ -181,7 +181,6 @@ img {
 }
 
 .desktop--header .header--nav--more--ul.show {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,5 +188,45 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: .5rem;
+}
+
+.desktop--header .header--nav--more--ul.show .header--nav--more--ul--heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.desktop--header .header--nav--more--ul.show .header--nav--more--ul--heading:nth-of-type(2) {
+  margin-top: 1rem;
+}
+
+.desktop--header .header--nav--more--ul.show .nav--more--ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.75rem;
+}
+
+.desktop--header .header--nav--more--ul.show .nav--more--ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.desktop--header .header--nav--more--ul.show .nav--more--ul a.link--about {
+  color: #ff764d;
+}
+
+.desktop--header .header--nav--more--ul.show .nav--more--ul2 {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.75rem;
+}
+
+.desktop--header .header--nav--more--ul.show .nav--more--ul2 a {
+  text-decoration: none;
+  color: #000;
 }
 /*# sourceMappingURL=general.css.map */
