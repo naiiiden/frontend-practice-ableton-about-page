@@ -6,9 +6,9 @@ const Header = () => {
 
     return (
         <header className="mobile--header">
-            <img src={logo}/>
+            <img src={logo} className="mobile--header--logo"/>
             <button aria-label="toggle navigation" className="mobile--header--menu--toggle" onClick={() => setOpenMenu(!openMenu)}>
-                Menu <span>⏷ ⏶</span>
+                Menu <span className="button--span">{!openMenu ? "⏷" : "⏶"}</span>
             </button>
             {/* &#x23F7; &#x23F6; */}
             <nav className="mobile--header--nav">
