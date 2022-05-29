@@ -258,4 +258,23 @@ img {
     gap: 2.25rem;
   }
 }
+
+.pages--nav {
+  padding: 1rem 1.25rem;
+}
+
+.pages--nav .pages--nav--ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.pages--nav .pages--nav--ul .pages--link {
+  font-size: .875rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
 /*# sourceMappingURL=general.css.map */
