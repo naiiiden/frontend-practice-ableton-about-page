@@ -277,4 +277,16 @@ img {
   color: #000;
   font-weight: 500;
 }
+
+@media screen and (min-width: 1280px) {
+  .pages--nav {
+    padding: 1rem 2.5rem;
+  }
+  .pages--nav .pages--nav--ul {
+    gap: 2rem;
+  }
+  .pages--nav .pages--nav--ul .pages--link {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
