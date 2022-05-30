@@ -278,6 +278,10 @@ img {
   font-weight: 500;
 }
 
+.pages--nav .pages--nav--ul .pages--link.active {
+  color: #ff764d;
+}
+
 @media screen and (min-width: 1280px) {
   .pages--nav {
     padding: 1rem 2.5rem;

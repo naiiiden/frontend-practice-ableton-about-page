@@ -11,7 +11,12 @@
             text-decoration: none;
             color: #000;
             font-weight: 500;
+            
+            &.active {
+                color: #ff764d;
+            }
         }
+
     }
 }
 
