@@ -328,4 +328,10 @@ img {
   display: block;
   padding: 1.5rem 0;
 }
+
+@media screen and (min-width: 1024px) {
+  .apprenticeships--container {
+    max-width: 70ch;
+  }
+}
 /*# sourceMappingURL=general.css.map */
