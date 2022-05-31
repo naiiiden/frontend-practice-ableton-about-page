@@ -1,0 +1,29 @@
+.apprenticeships--container {
+    padding: 1.25rem;
+    // border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .apprenticeships--h1 {
+        font-size: 2.4rem;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+
+    .apprenticeships--h2 {
+        font-size: 1.25rem;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+
+    .apprenticeships--p {
+        line-height: 1.5;
+    }
+
+    .apprenticeships--img {
+        display: block;
+        padding: 1.5rem 0;
+    }
+}
