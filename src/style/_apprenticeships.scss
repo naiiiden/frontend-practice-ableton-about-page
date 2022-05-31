@@ -36,6 +36,7 @@
 
 @media screen and (min-width: 1024px) {
     .apprenticeships--container {
+        padding: 5rem 1.25rem;
         max-width: 70ch;
     }
 }
@@ -43,7 +44,6 @@
 @media screen and (min-width: 1280px) {
     .apprenticeships--container {
         max-width: 85ch;
-
         padding: 6.25rem 2.5rem;
 
         .apprenticeships--h1 {
