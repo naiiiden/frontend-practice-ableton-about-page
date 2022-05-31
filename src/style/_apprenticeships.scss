@@ -33,3 +33,25 @@
         max-width: 70ch;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .apprenticeships--container {
+        max-width: 85ch;
+
+        padding: 6.25rem 2.5rem;
+
+        .apprenticeships--h1 {
+            font-size: 3.75rem;
+            line-height: 1.1;
+        }
+
+        .apprenticeships--h2 {
+            font-size: 1.875rem;
+            line-height: 1.4;
+        }
+
+        .apprenticeships--p {
+            font-size: 1.25rem;
+        }
+    }
+}
