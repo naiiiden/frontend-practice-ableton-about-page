@@ -502,6 +502,9 @@ img {
     background-size: cover;
     background-position: 50% 50%;
   }
+  .jobs--container h2 {
+    margin-top: 3rem;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -521,6 +524,7 @@ img {
     width: 650px;
   }
   .jobs--container .jobs--h2 {
+    margin-top: 5rem;
     font-size: 1.875rem;
     line-height: 1.4;
   }
