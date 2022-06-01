@@ -478,4 +478,20 @@ img {
     background-position: 50% 50%;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .jobs--container {
+    padding: 0 1.25rem 4.5rem 1.25rem;
+  }
+  .jobs--container .jobs--heading--container .jobs--heading {
+    font-size: 5.625rem;
+  }
+  .jobs--container h2, .jobs--container p, .jobs--container .jobs--job--listing--container {
+    width: 500px;
+    margin: auto;
+  }
+  .jobs--container h2 {
+    margin-top: 2rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
