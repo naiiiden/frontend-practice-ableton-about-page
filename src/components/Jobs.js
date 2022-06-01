@@ -10,19 +10,19 @@ const Jobs = () => {
             <div className="jobs--job--listing--container">
                 <ul className="job--listing--ul">
                     <li className="job--listing--ul--heading">Commerce</li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">Ableton Brand Manager - Nordics (d/f/m) &gt; </span><span className="job--location">Ableton AG / Germany</span></a></li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">Global Head of Tax (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">Interior Designer (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">Local Brand Manager Canada (d/f/m) &gt;</span><span className="job--location">Ableton AG / Canda</span></a></li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">Software Portfolio Manager (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">Assistenz in der Rechtsabteilung / Paralegal (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">Referendar:in für die Wahlstation bzw. als Teil der Anwaltsstation (d/w/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">Senior Legal Counsel (d/w/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/en/jobs/apply/686604"><span className="job--title">Ableton Brand Manager - Nordics (d/f/m) &gt; </span><span className="job--location">Ableton AG / Germany</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/en/jobs/apply/453495"><span className="job--title">Global Head of Tax (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/en/jobs/apply/620249"><span className="job--title">Interior Designer (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/en/jobs/apply/688856"><span className="job--title">Local Brand Manager Canada (d/f/m) &gt;</span><span className="job--location">Ableton AG / Canda</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/en/jobs/apply/700743"><span className="job--title">Software Portfolio Manager (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/de/jobs/apply/368493"><span className="job--title">Assistenz in der Rechtsabteilung / Paralegal (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/de/jobs/apply/62213"><span className="job--title">Referendar:in für die Wahlstation bzw. als Teil der Anwaltsstation (d/w/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/de/jobs/apply/545769"><span className="job--title">Senior Legal Counsel (d/w/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
                 </ul>
                 <ul className="job--listing--ul">
                     <li className="job--listing--ul--heading">Product Development</li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">QA Engineer, Hardware (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
-                    <li><a className="job--listing--link" href=""><span className="job--title">Release Engineer (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/en/jobs/apply/698090"><span className="job--title">QA Engineer, Hardware (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
+                    <li><a className="job--listing--link" href="https://www.ableton.com/en/jobs/apply/639242"><span className="job--title">Release Engineer (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
                 </ul>
             </div>
 
