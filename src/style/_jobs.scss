@@ -116,3 +116,26 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .jobs--container {
+        .jobs--heading--container {
+            background: url("https://ableton-production.imgix.net/jobs/header.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=602&ixjsv=1.1.3&q=50&w=853");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .jobs--container {
+        padding: 0 2.5rem 5rem 2.5rem;
+        
+        .jobs--heading--container {
+            .jobs--heading {
+
+            }
+        }
+    }
+}
