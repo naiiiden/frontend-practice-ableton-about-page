@@ -117,3 +117,11 @@
         }
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .about--container {
+        .about--collage--container1 {
+            height: 85vh;
+        }
+    }
+}

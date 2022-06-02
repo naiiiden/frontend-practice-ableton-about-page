@@ -679,4 +679,10 @@ img {
     height: 45%;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .about--container .about--collage--container1 {
+    height: 85vh;
+  }
+}
 /*# sourceMappingURL=general.css.map */
