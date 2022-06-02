@@ -16,7 +16,7 @@
         h1 {
             font-size: 4rem;
             font-weight: 500;
-            color: #fa6234;
+            color: #fd5948;
         }
     }
 
@@ -91,6 +91,18 @@
 
 @media screen and (min-width: 768px) {
     .about--container {
+        .about--heading--container {
+            h1 {
+                font-size: 7rem;
+            }
+        }
+    }
+    
+}
+
+/* START OF COLLAGE MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+    .about--container {
         .about--collage--container1 {
             height: 70vh;
 
@@ -125,3 +137,4 @@
         }
     }
 }
+/* END OF COLLAGE MEDIA QUERIES */
