@@ -541,4 +541,32 @@ img {
     font-size: 1.25rem;
   }
 }
+
+.about--container {
+  padding: 0 1.25rem 2rem 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about--container .about--heading--container {
+  height: 520px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  background: url("https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=520&ixjsv=1.1.3&q=50&w=1333");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.about--container .about--heading--container h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #fa6234;
+}
 /*# sourceMappingURL=general.css.map */
