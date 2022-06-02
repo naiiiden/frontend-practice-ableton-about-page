@@ -646,7 +646,7 @@ img {
   background-size: cover;
   background-position: 50% 50%;
   width: 55%;
-  height: 55%;
+  height: 70%;
 }
 
 .about--container .about--collage--container1 .about--collage--small {
@@ -656,5 +656,14 @@ img {
   background-position: 50% 50%;
   height: 40%;
   width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .about--container .about--collage--container1 {
+    height: 70vh;
+  }
+  .about--container .about--collage--container1 .about--collage--large {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=general.css.map */
