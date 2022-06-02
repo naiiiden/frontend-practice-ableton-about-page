@@ -42,13 +42,15 @@
     }
 
     .about--collage--container1 {
-        height: 35vh;
+        // height: 35vh;
+        height: 58.33333vw;
         position: relative;
         display: flex;
 
         .about--collage--background {
             height: 100%;
-            width: 57.5%;
+            // width: 57.5%;
+            width: 58.33333vw;
             background: #fbffa7;
             margin-left: auto;
             display: flex;
@@ -74,8 +76,10 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50% 50%;
-            width: 55%;
-            height: 70%;
+            // width: 55%;
+            // height: 70%;
+            width: 41.66667vw;
+            height: 41.66667vw;
         }
 
         .about--collage--small {
@@ -83,8 +87,10 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50% 50%;
-            height: 40%;
-            width: 40%;
+            // height: 40%;
+            // width: 40%;
+            height: 33.33333vw;
+            width: 33.33333vw;
         }
     }
 }
@@ -108,42 +114,3 @@
         }
     }
 }
-
-/* START OF COLLAGE MEDIA QUERIES */
-@media screen and (min-width: 768px) {
-    .about--container {
-        .about--collage--container1 {
-            height: 70vh;
-
-            .about--collage--large {
-                width: 50%;
-            }
-        }
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .about--container {
-        .about--collage--container1 {
-            height: 65vh;
-
-            .about--collage--large {
-                width: 45%;
-            }
-
-            .about--collage--small {
-                width: 35%;
-                height: 45%;
-            }
-        }
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .about--container {
-        .about--collage--container1 {
-            height: 85vh;
-        }
-    }
-}
-/* END OF COLLAGE MEDIA QUERIES */
