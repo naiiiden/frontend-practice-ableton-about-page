@@ -99,5 +99,21 @@
             }
         }
     }
+}
 
+@media screen and (min-width: 1024px) {
+    .about--container {
+        .about--collage--container1 {
+            height: 65vh;
+
+            .about--collage--large {
+                width: 45%;
+            }
+
+            .about--collage--small {
+                width: 35%;
+                height: 45%;
+            }
+        }
+    }
 }

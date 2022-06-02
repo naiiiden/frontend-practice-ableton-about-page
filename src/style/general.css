@@ -666,4 +666,17 @@ img {
     width: 50%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .about--container .about--collage--container1 {
+    height: 65vh;
+  }
+  .about--container .about--collage--container1 .about--collage--large {
+    width: 45%;
+  }
+  .about--container .about--collage--container1 .about--collage--small {
+    width: 35%;
+    height: 45%;
+  }
+}
 /*# sourceMappingURL=general.css.map */
