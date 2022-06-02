@@ -10,8 +10,10 @@ const About = () => {
             </div>
             <div className="about--collage--container1">
                 <div className="about--collage--background"></div>
-                <div className="about--collage--large"></div>
-                <div className="about--collage--small"></div>
+                <div className="about--collage--small--large--container">
+                    <div className="about--collage--large"></div>
+                    <div className="about--collage--small"></div>
+                </div>
             </div>
             <div className="about--text--container">
                 <h2 className="text--container--h2">Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s incredibly rewarding.</h2>
