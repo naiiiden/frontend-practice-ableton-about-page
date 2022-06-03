@@ -775,6 +775,11 @@ img {
   .about--container .about--heading--container h1 {
     font-size: 7rem;
   }
+  .about--container .about--text--container {
+    width: 66.66667vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {
