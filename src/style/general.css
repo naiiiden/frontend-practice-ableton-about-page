@@ -721,6 +721,10 @@ img {
   margin-left: 8.33333vw;
 }
 
+.about--container .about--collage--container3 {
+  margin: 0 8.33333vw;
+}
+
 .about--container .about--collage--container4 {
   height: 58.33333vw;
   position: relative;
