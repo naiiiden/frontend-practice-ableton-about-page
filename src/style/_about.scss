@@ -93,7 +93,8 @@
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        justify-content: space-around;
+        padding: 8.33333vw;
+
 
         .about--collage--background2 {
             width: 58.33333vw;
@@ -105,11 +106,9 @@
         }
 
         .about--collage--subcontainer2 {
-            // width: 50%;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 2rem;
             height: 100%;
 
             .about--collage--small2 {
@@ -125,6 +124,7 @@
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: 50% 50%;
+                    margin-top: 8.33333vw;
                 }
             }
         }
@@ -136,6 +136,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50% 50%;
+            margin-left: 8.33333vw;
         }
     }
 
@@ -145,7 +146,6 @@
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        // gap: 2rem;
 
         .about--collage--background4 {
             background: #d5b3ff;

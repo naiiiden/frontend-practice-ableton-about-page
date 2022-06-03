@@ -667,8 +667,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  padding: 8.33333vw;
 }
 
 .about--container .about--collage--container2 .about--collage--background2 {
@@ -691,7 +690,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 2rem;
   height: 100%;
 }
 
@@ -709,6 +707,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  margin-top: 8.33333vw;
 }
 
 .about--container .about--collage--container2 .about--collage--large2 {
@@ -718,6 +717,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  margin-left: 8.33333vw;
 }
 
 .about--container .about--collage--container4 {
