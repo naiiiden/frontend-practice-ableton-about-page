@@ -787,4 +787,19 @@ img {
     font-size: 8rem;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .about--container .about--text--container {
+    width: 50vw;
+    gap: 1.25rem;
+  }
+  .about--container .about--text--container .text--container--h2 {
+    font-size: 1.875rem;
+    line-height: 1.4;
+  }
+  .about--container .about--text--container .text--container--p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
 /*# sourceMappingURL=general.css.map */
