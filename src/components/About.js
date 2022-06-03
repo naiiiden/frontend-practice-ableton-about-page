@@ -5,7 +5,7 @@ const About = () => {
                 <h1>Ableton</h1>
             </div>
             <div className="about--text--container">
-                <h2 className="text--container--h2">We make <a href="">Live</a>, <a href="">Push</a> and <a href="">Link</a> — unique software and hardware for music creation and performance. With these products, our community of users creates amazing things.</h2>
+                <h2 className="text--container--h2">We make <a href="https://www.ableton.com/en/live/">Live</a>, <a href="https://www.ableton.com/en/push/">Push</a> and <a href="https://www.ableton.com/en/link/">Link</a> — unique software and hardware for music creation and performance. With these products, our community of users creates amazing things.</h2>
                 <p className="text--container--p">Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world.</p>
             </div>
             <div className="about--collage--container1">
@@ -68,7 +68,7 @@ const About = () => {
                 <div className="about--jobs--collage"></div>
                 <div className="about--jobs--text--container">
                     <p className="about--jobs--p">We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</p>
-                    <a className="about--jobs--link" href="">See latest jobs</a>
+                    <a className="about--jobs--link" href="https://www.ableton.com/en/jobs/">See latest jobs</a>
                 </div>
             </div>
         </main>
