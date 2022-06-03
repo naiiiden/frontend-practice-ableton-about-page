@@ -1,5 +1,5 @@
 .about--container {
-    padding: 0 1.25rem 2rem 1.25rem;
+    // padding: 0 1.25rem 2rem 1.25rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -91,6 +91,58 @@
             // width: 40%;
             height: 33.33333vw;
             width: 33.33333vw;
+        }
+    }
+
+    .about--collage--container2 {
+        position: relative;
+        height: 75vw;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+
+        .about--collage--background2 {
+            width: 58.33333vw;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            z-index: -1;
+            background: #b6ffc0;
+        }
+
+        .about--collage--subcontainer2 {
+            // width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2rem;
+            height: 100%;
+
+            .about--collage--small2 {
+                background: url("https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=400&ixjsv=1.1.3&q=50&w=533");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 50% 50%;
+                width: 33.33333vw;
+                height: 25vw;
+
+                &:nth-of-type(2) {
+                    background: url("https://ableton-production.imgix.net/about/photo-4.jpg?dpr=2&fit=crop&h=400&ixjsv=1.1.3&q=50&w=533");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+            }
+        }
+
+        .about--collage--large2 {
+            width: 41.66667vw;
+            height: 41.66667vw;
+            background: url("https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=667&ixjsv=1.1.3&q=50&w=667");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
         }
     }
 }

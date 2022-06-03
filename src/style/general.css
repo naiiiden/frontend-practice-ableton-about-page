@@ -543,7 +543,6 @@ img {
 }
 
 .about--container {
-  padding: 0 1.25rem 2rem 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -656,6 +655,72 @@ img {
   background-position: 50% 50%;
   height: 33.33333vw;
   width: 33.33333vw;
+}
+
+.about--container .about--collage--container2 {
+  position: relative;
+  height: 75vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about--container .about--collage--container2 .about--collage--background2 {
+  width: 58.33333vw;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  background: #b6ffc0;
+}
+
+.about--container .about--collage--container2 .about--collage--subcontainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+  height: 100%;
+}
+
+.about--container .about--collage--container2 .about--collage--subcontainer2 .about--collage--small2 {
+  background: url("https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=400&ixjsv=1.1.3&q=50&w=533");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 33.33333vw;
+  height: 25vw;
+}
+
+.about--container .about--collage--container2 .about--collage--subcontainer2 .about--collage--small2:nth-of-type(2) {
+  background: url("https://ableton-production.imgix.net/about/photo-4.jpg?dpr=2&fit=crop&h=400&ixjsv=1.1.3&q=50&w=533");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.about--container .about--collage--container2 .about--collage--large2 {
+  width: 41.66667vw;
+  height: 41.66667vw;
+  background: url("https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=667&ixjsv=1.1.3&q=50&w=667");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 @media screen and (min-width: 768px) {
