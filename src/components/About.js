@@ -56,9 +56,9 @@ const About = () => {
                 <p className="text--container--p">Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.</p>
             </div>
             <div className="about--collage--container4">
-                <div className="about--collage--background3"></div>
-                <div className="about--collage--large3"></div>
-                <div className="about--collage--small3"></div>
+                <div className="about--collage--background4"></div>
+                <div className="about--collage--large4"></div>
+                <div className="about--collage--small4"></div>
             </div>
             <div className="about--text--container">
                 <h2 className="text--container--h2">We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.</h2>
