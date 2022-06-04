@@ -68,7 +68,7 @@ const About = () => {
                 <div className="about--jobs--collage"></div>
                 <div className="about--jobs--text--container">
                     <p className="about--jobs--p">We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</p>
-                    <a className="about--jobs--link" href="https://www.ableton.com/en/jobs/">See latest jobs</a>
+                    <a className="about--jobs--link" href="https://www.ableton.com/en/jobs/">See latest jobs &gt;</a>
                 </div>
             </div>
         </main>
