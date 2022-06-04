@@ -289,5 +289,32 @@
                 height: 28.25vw;
             }
         }
+
+        .about--jobs--container {
+            display: flex;
+            // width: 41.66667vw;
+            height: 41.66667vw;
+
+            .about--jobs--collage {
+                width: 50%;
+                height: 41.66667vw;
+            }
+
+            .about--jobs--text--container {
+                width: 50%;
+                display: grid;
+                place-content: center;
+                line-height: 1.4;
+
+                .about--jobs--p {
+                    font-size: 1.875rem;
+                }
+
+                .about--jobs--link {
+                    font-size: 1.875rem;
+                    padding-top: 1.875rem;
+                }
+            }
+        }
     }
 }

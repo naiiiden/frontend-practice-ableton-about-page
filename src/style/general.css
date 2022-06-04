@@ -869,5 +869,29 @@ img {
     width: 50vw;
     height: 28.25vw;
   }
+  .about--container .about--jobs--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 41.66667vw;
+  }
+  .about--container .about--jobs--container .about--jobs--collage {
+    width: 50%;
+    height: 41.66667vw;
+  }
+  .about--container .about--jobs--container .about--jobs--text--container {
+    width: 50%;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    line-height: 1.4;
+  }
+  .about--container .about--jobs--container .about--jobs--text--container .about--jobs--p {
+    font-size: 1.875rem;
+  }
+  .about--container .about--jobs--container .about--jobs--text--container .about--jobs--link {
+    font-size: 1.875rem;
+    padding-top: 1.875rem;
+  }
 }
 /*# sourceMappingURL=general.css.map */
