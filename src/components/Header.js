@@ -65,7 +65,7 @@ const Header = () => {
                 </header>
             ) : (
                 <header className="desktop--header">
-                    <Logo className="header--logo"/>
+                    <a href="https://www.ableton.com/en/"><Logo className="header--logo"/></a>
                     <nav className="header--nav">
                         <ul className="header--nav--ul">
                             <li><a href="https://www.ableton.com/en/live/">Live</a></li>
