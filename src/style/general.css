@@ -120,6 +120,7 @@ img {
   display: flex;
   gap: 2rem;
   overflow-x: scroll;
+  padding-bottom: .5rem;
 }
 
 .mobile--header--nav--ul .mobile--header--nav--ul--li--container .mobile--header--nav--ul--li--subcontainer {
@@ -137,6 +138,14 @@ img {
 .mobile--header--nav--ul .mobile--header--nav--ul--li--container .mobile--header--nav--ul--li--subcontainer p {
   font-weight: 400;
   width: 13rem;
+}
+
+.mobile--header--nav--ul .mobile--header--nav--ul--li--container::-webkit-scrollbar {
+  height: .075rem;
+}
+
+.mobile--header--nav--ul .mobile--header--nav--ul--li--container::-webkit-scrollbar-thumb {
+  background: silver;
 }
 
 .desktop--header {

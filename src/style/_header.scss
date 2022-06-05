@@ -69,6 +69,7 @@
         display: flex;
         gap: 2rem;
         overflow-x: scroll;
+        padding-bottom: .5rem;
 
         .mobile--header--nav--ul--li--subcontainer {
             display: flex;
@@ -80,6 +81,14 @@
                 font-weight: 400;
                 width: 13rem;
             }
+        }
+
+        &::-webkit-scrollbar {
+            height: .075rem;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background: rgb(192, 192, 192);
         }
     }
 }
