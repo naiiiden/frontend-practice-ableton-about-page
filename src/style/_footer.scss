@@ -223,3 +223,53 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    footer {
+        .footer--main--logo {
+            width: 188px;
+        }
+
+        .footer--nav {
+            .footer--nav--ul--container {
+                flex-direction: row;
+
+                &.container1 {
+                    .newsletter {
+                        order: unset;
+                    }
+    
+                    .socials {
+                        order: unset;
+                    }
+    
+                    .education {
+                        order: unset;
+                    }
+                }
+
+                .footer--nav--ul {
+                    min-width: 232px;
+
+                    &.newsletter {
+                        width: 40%;
+                    }
+                }
+                
+                .footer--location--container {
+                    width: 40%;
+                }
+            }
+
+            .footer--logo--container {
+                flex-direction: row;
+                justify-content: space-between;
+
+                .footer--nav--ul {
+                    flex-direction: row;
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+}
