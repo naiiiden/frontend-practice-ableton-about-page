@@ -4,7 +4,6 @@ footer {
     flex-direction: column;
     gap: 8.33333vw;
 
-
     .footer--main--logo {
         width: 122px;
     }
@@ -53,6 +52,7 @@ footer {
                 .footer--nav--ul--socials {
                     list-style-type: none;
                     display: flex;
+                    margin-top: .625rem;
                     gap: .625rem;
 
                     .facebook--link {
@@ -99,6 +99,7 @@ footer {
                 }
 
                 form {
+                    margin-top: 1rem;
                     display: flex;
                     flex-wrap: wrap;
 
@@ -129,6 +130,8 @@ footer {
 
                 .footer--language--form {
                     margin-top: 0.75rem;
+                    display: flex;
+                    flex-wrap: wrap;
 
                     .footer--language--select {
                         padding: .35rem 50px .25rem .75rem;
@@ -150,6 +153,7 @@ footer {
                         cursor: pointer;
                         border: none;
                         height: 1.875rem;
+                        max-width: 200px;
                     }
                 }
             }
@@ -184,6 +188,27 @@ footer {
                 margin-left: 1rem;
                 font-size: .875rem;
                 font-weight: 500;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 425px) {
+    footer {
+        .footer--nav {
+            .footer--nav--ul--container {
+                .footer--nav--ul {
+                    .footer--nav--ul--socials {
+                        .facebook--link {
+                            width: 40px;
+                        }
+
+                        img {
+                            height: 40px;
+                            width: 40px;
+                        }
+                    }
+                }
             }
         }
     }

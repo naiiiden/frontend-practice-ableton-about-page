@@ -980,6 +980,7 @@ footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--u
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: .625rem;
   gap: .625rem;
 }
 
@@ -1029,6 +1030,7 @@ footer .footer--nav .footer--nav--ul--container .footer--newsletter--container .
 }
 
 footer .footer--nav .footer--nav--ul--container .footer--newsletter--container form {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1060,6 +1062,11 @@ footer .footer--nav .footer--nav--ul--container .footer--location--container .fo
 
 footer .footer--nav .footer--nav--ul--container .footer--location--container .footer--language--form {
   margin-top: 0.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 footer .footer--nav .footer--nav--ul--container .footer--location--container .footer--language--form .footer--language--select {
@@ -1082,6 +1089,7 @@ footer .footer--nav .footer--nav--ul--container .footer--location--container .fo
   cursor: pointer;
   border: none;
   height: 1.875rem;
+  max-width: 200px;
 }
 
 footer .footer--logo--container {
@@ -1128,5 +1136,15 @@ footer .footer--logo--container .footer--logo--text--container p {
   margin-left: 1rem;
   font-size: .875rem;
   font-weight: 500;
+}
+
+@media screen and (min-width: 425px) {
+  footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .facebook--link, footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .twitter--link, footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .youtube--link, footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .reddit--link {
+    width: 40px;
+  }
+  footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials img {
+    height: 40px;
+    width: 40px;
+  }
 }
 /*# sourceMappingURL=general.css.map */
