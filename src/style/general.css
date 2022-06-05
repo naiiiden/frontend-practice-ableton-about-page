@@ -895,4 +895,151 @@ img {
     padding-top: 1.875rem;
   }
 }
+
+footer {
+  padding: 8.33333vw;
+}
+
+footer .footer--main--logo {
+  width: 122px;
+}
+
+footer .footer--nav .footer--nav--ul--container {
+  border: 1px solid red;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--nav--ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--heading {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--nav--ul a {
+  color: #000;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .625rem;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .facebook--link, footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .twitter--link, footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .youtube--link, footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .reddit--link {
+  background: #3477f2;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  width: 32px;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .twitter--link {
+  background: #1da1f2;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .youtube--link {
+  background: #ff001d;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials .reddit--link {
+  background: #f77737;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--ul--socials img {
+  width: 32px;
+  height: 32px;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--newsletter--container {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--newsletter--container .footer--nav--heading {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--newsletter--container .footer--newsletter--p {
+  line-height: 1.5;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--newsletter--container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--newsletter--container form .form--email--submit {
+  background: #0000ff;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 0.35rem 1.5rem;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--newsletter--container form .form--email--input {
+  background: #eee;
+  padding: 0.4rem 0.75rem;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--location--container {
+  border: 1px solid red;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--location--container .footer--nav--heading {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--location--container .footer--language--form {
+  margin-top: 0.75rem;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--location--container .footer--language--form .footer--language--select {
+  padding: .35rem 50px .25rem .75rem;
+  background: #eee;
+  font-family: inherit;
+  font-size: .875rem;
+  height: 1.875rem;
+  cursor: pointer;
+  border: none;
+}
+
+footer .footer--nav .footer--nav--ul--container .footer--location--container .footer--language--form .footer--country--select {
+  padding: .35rem 50px .35rem .75rem;
+  background: #eee;
+  font-family: inherit;
+  font-size: .875rem;
+  cursor: pointer;
+  border: none;
+  height: 1.875rem;
+}
 /*# sourceMappingURL=general.css.map */

@@ -8,7 +8,7 @@ import LogoReddit from "../images/reddit.svg";
 const Footer = () => {
      return (
          <footer>
-             <img src={Logo} alt="Ableton's logo"/>
+             <img src={Logo} alt="Ableton's logo" className="footer--main--logo"/>
              <nav className="footer--nav">
                 <div className="footer--nav--ul--container">
                     <ul className="footer--nav--ul">
@@ -17,10 +17,10 @@ const Footer = () => {
                         <li><a href="">Jobs &gt;</a></li>
                         <li>
                             <ul className="footer--nav--ul--socials">
-                                <li><a href=""><img src={LogoFacebook} alt=""/></a></li>
-                                <li><a href=""><img src={LogoTwitter} alt=""/></a></li>
-                                <li><a href=""><img src={LogoYoutube} alt=""/></a></li>
-                                <li><a href=""><img src={LogoReddit} alt=""/></a></li>
+                                <li><a href="" className="facebook--link"><img src={LogoFacebook} alt=""/></a></li>
+                                <li><a href="" className="twitter--link"><img src={LogoTwitter} alt=""/></a></li>
+                                <li><a href="" className="youtube--link"><img src={LogoYoutube} alt=""/></a></li>
+                                <li><a href="" className="reddit--link"><img src={LogoReddit} alt=""/></a></li>
                             </ul>
                         </li>
                     </ul>
@@ -34,7 +34,7 @@ const Footer = () => {
                         <h3 className="footer--nav--heading">Sign up to our newsletter</h3>
                         <p className="footer--newsletter--p">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
                         <form className="footer--newsletter--form">
-                            <input type="email" name="email" placeholder="Email Address" class="form--email--input"/>
+                            <input type="email" name="email" placeholder="Email Address" className="form--email--input"/>
                             <input type="submit" value="Sign up" className="form--email--submit"/>
                         </form>
                     </div>
@@ -328,6 +328,17 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer--logo--container">
+                    <nav className="footer--nav">
+                        <ul className="footer--nav--ul">
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Press Resources</a></li>
+                            <li><a href="">Legal Info</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Cookie Settings</a></li>
+                            <li><a href="">Imprint</a></li>
+                        </ul>
+                    </nav>
+
                     <img src={LogoRegular} alt="Ableton's logo" className="footer--logo--container--img"/>
                     <p className="footer--logo--container--text">Made in Berlin</p>
                 </div>
