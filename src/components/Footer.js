@@ -328,7 +328,6 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer--logo--container">
-                    <nav className="footer--nav">
                         <ul className="footer--nav--ul">
                             <li><a href="">Contact Us</a></li>
                             <li><a href="">Press Resources</a></li>
@@ -337,10 +336,11 @@ const Footer = () => {
                             <li><a href="">Cookie Settings</a></li>
                             <li><a href="">Imprint</a></li>
                         </ul>
-                    </nav>
 
-                    <img src={LogoRegular} alt="Ableton's logo" className="footer--logo--container--img"/>
-                    <p className="footer--logo--container--text">Made in Berlin</p>
+                    <div className="footer--logo--text--container">
+                        <img src={LogoRegular} alt="Ableton's logo" className="footer--logo--container--img"/>
+                        <p className="footer--logo--container--text">Made in Berlin</p>
+                    </div>
                 </div>
              </nav>
          </footer>

@@ -898,14 +898,18 @@ img {
 
 footer {
   padding: 8.33333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8.33333vw;
 }
 
 footer .footer--main--logo {
   width: 122px;
-}
-
-footer .footer--nav .footer--nav--ul--container {
-  border: 1px solid red;
 }
 
 footer .footer--nav .footer--nav--ul--container .footer--nav--ul {
@@ -965,7 +969,6 @@ footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--u
 }
 
 footer .footer--nav .footer--nav--ul--container .footer--newsletter--container {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1010,10 +1013,6 @@ footer .footer--nav .footer--nav--ul--container .footer--newsletter--container f
   border: none;
 }
 
-footer .footer--nav .footer--nav--ul--container .footer--location--container {
-  border: 1px solid red;
-}
-
 footer .footer--nav .footer--nav--ul--container .footer--location--container .footer--nav--heading {
   font-size: 1rem;
   font-weight: 500;
@@ -1041,5 +1040,38 @@ footer .footer--nav .footer--nav--ul--container .footer--location--container .fo
   cursor: pointer;
   border: none;
   height: 1.875rem;
+}
+
+footer .footer--logo--container .footer--nav--ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+}
+
+footer .footer--logo--container .footer--nav--ul a {
+  color: #000;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+footer .footer--logo--container .footer--logo--text--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer--logo--container .footer--logo--text--container p {
+  margin-left: 1rem;
+  font-size: .875rem;
+  font-weight: 500;
 }
 /*# sourceMappingURL=general.css.map */
