@@ -897,6 +897,7 @@ img {
 }
 
 footer {
+  border-top: 2px solid #eee;
   padding: 8.33333vw;
   display: -webkit-box;
   display: -ms-flexbox;
