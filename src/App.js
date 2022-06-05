@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 
 
 import "./style/general.css";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
                 <Route path="/jobs" element={<Jobs/>}/>
                 <Route path="/apprenticeships" element={<Apprenticeships/>}/>
       </Routes>
-      <p>FOOTER</p>
+      <Footer/>
     </div>
   );
 }
