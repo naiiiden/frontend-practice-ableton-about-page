@@ -107,7 +107,7 @@ const Footer = () => {
                                     <option value="br">Brazil</option>
                                     <option value="io">British Indian Ocean Territory</option>
                                     <option value="bn">Brunei Darussalam</option>
-                                    <option value="bg" selected="">Bulgaria</option>
+                                    <option value="bg" selected>Bulgaria</option>
                                     <option value="bf">Burkina Faso</option>
                                     <option value="bi">Burundi</option>
                                     <option value="kh">Cambodia</option>
