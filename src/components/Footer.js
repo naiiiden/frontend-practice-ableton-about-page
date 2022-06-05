@@ -10,8 +10,8 @@ const Footer = () => {
          <footer>
              <img src={Logo} alt="Ableton's logo" className="footer--main--logo"/>
              <nav className="footer--nav">
-                <div className="footer--nav--ul--container">
-                    <ul className="footer--nav--ul">
+                <div className="footer--nav--ul--container container1">
+                    <ul className="footer--nav--ul socials">
                         <li><a href="">Register Live or Push &gt;</a></li>
                         <li><a href="">About Ableton &gt;</a></li>
                         <li><a href="">Jobs &gt;</a></li>
@@ -24,13 +24,13 @@ const Footer = () => {
                             </ul>
                         </li>
                     </ul>
-                    <ul className="footer--nav--ul">
+                    <ul className="footer--nav--ul education">
                         <li><h3 className="footer--nav--heading">Education</h3></li>
                         <li><a href="">Offers for students and teachers &gt;</a></li>
                         <li><a href="">Ableton for the Classroom &gt;</a></li>
                         <li><a href="">Ableton for Colleges and Universities &gt;</a></li>
                     </ul>
-                    <div className="footer--newsletter--container">
+                    <div className="footer--newsletter--container newsletter">
                         <h3 className="footer--nav--heading">Sign up to our newsletter</h3>
                         <p className="footer--newsletter--p">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
                         <form className="footer--newsletter--form">

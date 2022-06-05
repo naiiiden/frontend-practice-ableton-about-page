@@ -912,6 +912,46 @@ footer .footer--main--logo {
   width: 122px;
 }
 
+footer .footer--nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8.33333vw;
+}
+
+footer .footer--nav .footer--nav--ul--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8.33333vw;
+}
+
+footer .footer--nav .footer--nav--ul--container.container1 .newsletter {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+footer .footer--nav .footer--nav--ul--container.container1 .socials {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+footer .footer--nav .footer--nav--ul--container.container1 .education {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
 footer .footer--nav .footer--nav--ul--container .footer--nav--ul {
   list-style-type: none;
   display: -webkit-box;
@@ -1027,6 +1067,7 @@ footer .footer--nav .footer--nav--ul--container .footer--location--container .fo
   background: #eee;
   font-family: inherit;
   font-size: .875rem;
+  font-weight: 500;
   height: 1.875rem;
   cursor: pointer;
   border: none;
@@ -1037,9 +1078,21 @@ footer .footer--nav .footer--nav--ul--container .footer--location--container .fo
   background: #eee;
   font-family: inherit;
   font-size: .875rem;
+  font-weight: 500;
   cursor: pointer;
   border: none;
   height: 1.875rem;
+}
+
+footer .footer--logo--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8.33333vw;
 }
 
 footer .footer--logo--container .footer--nav--ul {
@@ -1058,6 +1111,8 @@ footer .footer--logo--container .footer--nav--ul a {
   color: #000;
   text-decoration: none;
   line-height: 1.5;
+  font-size: .875rem;
+  font-weight: 500;
 }
 
 footer .footer--logo--container .footer--logo--text--container {

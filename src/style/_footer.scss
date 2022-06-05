@@ -10,7 +10,29 @@ footer {
     }
 
     .footer--nav {
+        display: flex;
+        flex-direction: column;
+        gap: 8.33333vw;
+
         .footer--nav--ul--container {    
+            display: flex;
+            flex-direction: column;
+            gap: 8.33333vw;
+
+            &.container1 {
+                .newsletter {
+                    order: 1;
+                }
+
+                .socials {
+                    order: 2;
+                }
+
+                .education {
+                    order: 3;
+                }
+            }
+
             .footer--nav--ul {
                 list-style-type: none;
                 display: flex;
@@ -113,6 +135,7 @@ footer {
                         background: #eee;
                         font-family: inherit;
                         font-size: .875rem;
+                        font-weight: 500;
                         height: 1.875rem;
                         cursor: pointer;
                         border: none;
@@ -123,6 +146,7 @@ footer {
                         background: #eee;
                         font-family: inherit;
                         font-size: .875rem;
+                        font-weight: 500;
                         cursor: pointer;
                         border: none;
                         height: 1.875rem;
@@ -133,6 +157,10 @@ footer {
     }
 
     .footer--logo--container {
+        display: flex;
+        flex-direction: column;
+        gap: 8.33333vw;
+
         .footer--nav--ul {
             list-style-type: none;
             display: flex;
@@ -143,6 +171,8 @@ footer {
                 color: #000;
                 text-decoration: none;
                 line-height: 1.5;
+                font-size: .875rem;
+                font-weight: 500;
             }
         }
 
