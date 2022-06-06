@@ -9,7 +9,7 @@
 body {
   width: 100%;
   min-height: 100vh;
-  font-family: Jost, sans-serif;
+  font-family: futura-pt, Jost, sans-serif;
 }
 
 img {
@@ -256,6 +256,10 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 1.75rem;
+}
+
+.desktop--header .header--nav--more--ul.show .nav--more--ul2 h4 {
+  font-weight: 500;
 }
 
 .desktop--header .header--nav--more--ul.show .nav--more--ul2 a {
