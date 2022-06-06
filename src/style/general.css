@@ -222,6 +222,30 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: .5rem;
+  -webkit-animation: height .3s ease-in-out;
+          animation: height .3s ease-in-out;
+}
+
+@-webkit-keyframes height {
+  0% {
+    opacity: 0;
+    max-height: 0;
+  }
+  100% {
+    opacity: 1;
+    max-height: 30rem;
+  }
+}
+
+@keyframes height {
+  0% {
+    opacity: 0;
+    max-height: 0;
+  }
+  100% {
+    opacity: 1;
+    max-height: 30rem;
+  }
 }
 
 .desktop--header .header--nav--more--ul.show .header--nav--more--ul--heading {
