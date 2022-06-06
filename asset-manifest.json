@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/frontend-practice-ableton-about-page/static/css/main.37c72747.css",
+    "main.js": "/frontend-practice-ableton-about-page/static/js/main.9e9cf809.js",
+    "static/media/logo_footer.svg": "/frontend-practice-ableton-about-page/static/media/logo_footer.d93f0e2446436d2a42ef73a683f0bfd0.svg",
+    "index.html": "/frontend-practice-ableton-about-page/index.html",
+    "static/media/reddit.svg": "/frontend-practice-ableton-about-page/static/media/reddit.a87e74aa87462d5fae9207ea41df94e1.svg",
+    "static/media/twitter.svg": "/frontend-practice-ableton-about-page/static/media/twitter.fac8c4a9092e5ee17f1d5151f6c49724.svg",
+    "static/media/facebook.svg": "/frontend-practice-ableton-about-page/static/media/facebook.6b43c50d5d9cfaaf3ab7ffc0e77a89af.svg",
+    "static/media/youtube.svg": "/frontend-practice-ableton-about-page/static/media/youtube.577f68ef3313f80f0a2617828563be34.svg",
+    "static/media/logo.svg": "/frontend-practice-ableton-about-page/static/media/logo.64068565170b792103039be3bd9af8a5.svg",
+    "main.37c72747.css.map": "/frontend-practice-ableton-about-page/static/css/main.37c72747.css.map",
+    "main.9e9cf809.js.map": "/frontend-practice-ableton-about-page/static/js/main.9e9cf809.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37c72747.css",
+    "static/js/main.9e9cf809.js"
+  ]
+}
