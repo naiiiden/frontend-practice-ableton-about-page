@@ -8,7 +8,7 @@
     .mobile--header--logo {
         width: 60px;
         height: 28px;
-        z-index: 99;
+        z-index: 101;
     }
 
     .mobile--header--menu--toggle {
@@ -17,7 +17,7 @@
         font-size: 1.25rem;
         font-family: inherit;
         font-weight: 500;
-        z-index: 99;
+        z-index: 101;
     }
 }
 
@@ -36,6 +36,7 @@
         left: 0;
         width: 100%;
         animation: height .1s ease-in-out;
+        z-index: 100;
 
         @keyframes height {
             0% {

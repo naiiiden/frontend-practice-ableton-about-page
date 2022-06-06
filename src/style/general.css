@@ -52,7 +52,7 @@ img {
 .mobile--header .mobile--header--logo {
   width: 60px;
   height: 28px;
-  z-index: 99;
+  z-index: 101;
 }
 
 .mobile--header .mobile--header--menu--toggle {
@@ -61,7 +61,7 @@ img {
   font-size: 1.25rem;
   font-family: inherit;
   font-weight: 500;
-  z-index: 99;
+  z-index: 101;
 }
 
 .mobile--header--nav--ul {
@@ -86,6 +86,7 @@ img {
   width: 100%;
   -webkit-animation: height .1s ease-in-out;
           animation: height .1s ease-in-out;
+  z-index: 100;
 }
 
 @-webkit-keyframes height {
@@ -337,7 +338,7 @@ img {
   top: 0;
   -webkit-transition: top .3s;
   transition: top .3s;
-  z-index: 99;
+  z-index: 90;
   background: rgba(255, 255, 255, 0.75);
   -webkit-backdrop-filter: blur(0.25rem);
           backdrop-filter: blur(0.25rem);
