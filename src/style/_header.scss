@@ -35,6 +35,19 @@
         top: 0;
         left: 0;
         width: 100%;
+        animation: height .1s ease-in-out;
+
+        @keyframes height {
+            0% {
+                opacity: 0;
+                max-height: 0;
+            }
+
+            100% {
+                opacity: 1;
+                max-height: 45rem;
+            }
+        }
     }
 
     a {
