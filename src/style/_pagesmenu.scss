@@ -2,9 +2,11 @@
     padding: 1rem 1.25rem;
     position: sticky;
     top: 0;
+    transition: top .3s;
     z-index: 99;
     background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(.25rem);
+
 
     .pages--nav--ul {
         list-style-type: none;

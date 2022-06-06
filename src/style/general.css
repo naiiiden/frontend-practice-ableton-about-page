@@ -298,6 +298,8 @@ img {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  -webkit-transition: top .3s;
+  transition: top .3s;
   z-index: 99;
   background: rgba(255, 255, 255, 0.75);
   -webkit-backdrop-filter: blur(0.25rem);
