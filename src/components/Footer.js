@@ -34,7 +34,7 @@ const Footer = () => {
                         <h3 className="footer--nav--heading">Sign up to our newsletter</h3>
                         <p className="footer--newsletter--p">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
                         <form className="footer--newsletter--form">
-                            <input type="email" name="email" placeholder="Email Address" className="form--email--input"/>
+                            <input type="email" name="email" placeholder="Email Address" className="form--email--input" aria-label="Email Address"/>
                             <input type="submit" value="Sign up" className="form--email--submit"/>
                         </form>
                     </div>
