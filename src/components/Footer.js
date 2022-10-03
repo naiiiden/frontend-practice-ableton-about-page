@@ -17,10 +17,10 @@ const Footer = () => {
                         <li><a href="https://www.ableton.com/en/jobs/">Jobs &gt;</a></li>
                         <li>
                             <ul className="footer--nav--ul--socials">
-                                <li><a href="http://facebook.com/ableton" className="facebook--link"><img src={LogoFacebook} alt=""/></a></li>
-                                <li><a href="http://twitter.com/ableton" className="twitter--link"><img src={LogoTwitter} alt=""/></a></li>
-                                <li><a href="http://youtube.com/ableton" className="youtube--link"><img src={LogoYoutube} alt=""/></a></li>
-                                <li><a href="http://instagram.com/ableton" className="reddit--link"><img src={LogoReddit} alt=""/></a></li>
+                                <li><a href="http://facebook.com/ableton" className="facebook--link"><img src={LogoFacebook} alt="Our Facebook"/></a></li>
+                                <li><a href="http://twitter.com/ableton" className="twitter--link"><img src={LogoTwitter} alt="Our Twitter"/></a></li>
+                                <li><a href="http://youtube.com/ableton" className="youtube--link"><img src={LogoYoutube} alt="Our Youtube"/></a></li>
+                                <li><a href="http://instagram.com/ableton" className="reddit--link"><img src={LogoReddit} alt="Our Reddit"/></a></li>
                             </ul>
                         </li>
                     </ul>
