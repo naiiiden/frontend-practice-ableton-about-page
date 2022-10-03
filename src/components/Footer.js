@@ -54,14 +54,14 @@ const Footer = () => {
                     <div className="footer--location--container">
                         <h3 className="footer--nav--heading">Language and Location</h3>
                         <form className="footer--language--form">
-                            <select name="language" className="footer--language--select">
+                            <select name="language" className="footer--language--select" aria-label="Change language">
                                 <option value="en" selected>English</option>
                                 <option value="de">Deutsch</option>
                                 <option value="fr">Français</option>
                                 <option value="ja">日本語</option>
                                 <option value="zh-cn">简体中文</option>
                             </select>
-                            <select name="country" className="footer--country--select">
+                            <select name="country" className="footer--country--select" aria-label="Change country">
                                 <option value>Please Choose</option>
                                 <optgroup label="Common Countries">
                                     <option value="us">United States</option>
