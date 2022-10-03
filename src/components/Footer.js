@@ -9,7 +9,7 @@ const Footer = () => {
      return (
          <footer>
              <img src={Logo} alt="Ableton's logo" className="footer--main--logo"/>
-             <nav className="footer--nav">
+             <nav className="footer--nav" aria-label="Footer">
                 <div className="footer--nav--ul--container container1">
                     <ul className="footer--nav--ul socials">
                         <li><a href="https://www.ableton.com/en/account/add_license/">Register Live or Push &gt;</a></li>

@@ -21,7 +21,7 @@ const Header = () => {
                     <button style={{color: `${!openMenu ? "#000" : "#fff"}`}} aria-label="toggle navigation" className="mobile--header--menu--toggle" onClick={() => setOpenMenu(!openMenu)}>
                         Menu <span className="button--span">{!openMenu ? "⏷" : "⏶"}</span>
                     </button>
-                    <nav className="mobile--header--nav">
+                    <nav className="mobile--header--nav" aria-label="Header">
                         <ul className={`mobile--header--nav--ul ${!openMenu ? "" : "show"}`} role="menubar">
                             <li role="none"><a role="menuitem" href="https://www.ableton.com/en/live/">Live</a></li>
                             <li role="none"><a role="menuitem" href="https://www.ableton.com/en/push/">Push</a></li>
@@ -74,7 +74,7 @@ const Header = () => {
             ) : (
                 <header className="desktop--header">
                     <a href="https://www.ableton.com/en/" aria-label="Go to homepage"><Logo className="header--logo"/></a>
-                    <nav className="header--nav">
+                    <nav className="header--nav" aria-label="Header">
                         <ul className="header--nav--ul" role="menubar">
                             <li role="none"><a role="menuitem" href="https://www.ableton.com/en/live/">Live</a></li>
                             <li role="none"><a role="menuitem" href="https://www.ableton.com/en/push/">Push</a></li>
