@@ -67,51 +67,51 @@ const Header = () => {
                 <header className="desktop--header">
                     <a href="https://www.ableton.com/en/" aria-label="Go to homepage"><Logo className="header--logo"/></a>
                     <nav className="header--nav">
-                        <ul className="header--nav--ul">
-                            <li><a href="https://www.ableton.com/en/live/">Live</a></li>
-                            <li><a href="https://www.ableton.com/en/push/">Push</a></li>
-                            <li><a href="https://www.ableton.com/en/link/">Link</a></li>
-                            <li><a href="https://www.ableton.com/en/shop/">Shop</a></li>
-                            <li><a href="https://www.ableton.com/en/packs/">Packs</a></li>
-                            <li><a href="https://www.ableton.com/en/help/">Help</a></li>
-                            <li><button aria-label="toggle navigation" className="nav--ul--more--button" onClick={() => setOpenMore(!openMore)}>{openMore ? "More -" : "More +"}</button></li>
-                            <li className="li--link--live"><a href="https://www.ableton.com/en/trial/" className="link--live">Try Live for free</a></li>
-                            <li><a href="https://www.ableton.com/en/login/?next=/en/about/" className="link--login">Log in or register</a></li>
+                        <ul className="header--nav--ul" role="menubar">
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/live/">Live</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/push/">Push</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/link/">Link</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/shop/">Shop</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/packs/">Packs</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/help/">Help</a></li>
+                            <li role="none"><button aria-haspopup="true" aria-expanded={!openMore ? "false" : "true"} aria-label={!openMore ? "Open menu" : "Close menu"} className="nav--ul--more--button" onClick={() => setOpenMore(!openMore)}>{openMore ? "More -" : "More +"}</button></li>
+                            <li role="none" className="li--link--live"><a role="menuitem" href="https://www.ableton.com/en/trial/" className="link--live">Try Live for free</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/login/?next=/en/about/" className="link--login">Log in or register</a></li>
                         </ul>
                     </nav>
                     <nav className={`header--nav--more--ul ${!openMore ? "" : "show"}`}>
                         <h3 className="header--nav--more--ul--heading">More on Ableton.com:</h3>
-                        <ul className="nav--more--ul">
-                            <li><a href="https://www.ableton.com/en/blog/">Blog</a></li>
-                            <li><a href="https://www.ableton.com/en/classroom/">Ableton for the Classroom</a></li>
-                            <li><a href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges and Universities</a></li>
-                            <li><a href="https://www.ableton.com/en/certified-training/">Certified Training</a></li>
-                            <li><a href="https://www.ableton.com/en/about/" className="link--about">About Ableton</a></li>
-                            <li><a href="https://www.ableton.com/en/jobs/">Jobs</a></li>
-                            <li><a href="https://www.ableton.com/en/ausbildung/">Apprenticeships</a></li>
+                        <ul className="nav--more--ul" role="menu">
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/blog/">Blog</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/classroom/">Ableton for the Classroom</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges and Universities</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/certified-training/">Certified Training</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/about/" className="link--about">About Ableton</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/jobs/">Jobs</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/ausbildung/">Apprenticeships</a></li>
                         </ul>
                         <h3 className="header--nav--more--ul--heading">More from Ableton:</h3>
-                        <ul className="nav--more--ul2">
-                            <li>
-                                <a href="https://www.ableton.com/en/blog/loop/" className="nav--more--ul2--link">
+                        <ul className="nav--more--ul2" role="menu">
+                            <li role="none">
+                                <a role="menuitem" href="https://www.ableton.com/en/blog/loop/" className="nav--more--ul2--link">
                                     <h4>Loop</h4>
                                     <p>Watch talks, Performances and Features from Ableton's Summit for Music Makers</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="https://learningmusic.ableton.com/" className="nav--more--ul2--link">
+                            <li role="none">
+                                <a role="menuitem" href="https://learningmusic.ableton.com/" className="nav--more--ul2--link">
                                     <h4>Learning Music</h4>
                                     <p>Learn the fundamentals of music making right in your browser.</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="https://learningsynths.ableton.com/" className="nav--more--ul2--link">
+                            <li role="none">
+                                <a role="menuitem" href="https://learningsynths.ableton.com/" className="nav--more--ul2--link">
                                     <h4>Learning Synths</h4>
                                     <p>Get started with synthesis using a web-based synth and accompanying lessons.</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="https://makingmusic.ableton.com/" className="nav--more--ul2--link">
+                            <li role="none">
+                                <a role="menuitem" href="https://makingmusic.ableton.com/" className="nav--more--ul2--link">
                                     <h4>Making Music</h4>
                                     <p>Some tips from 74 Creative Strategies for Electronic Producers.</p>
                                 </a>
