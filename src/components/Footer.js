@@ -15,7 +15,7 @@ const Footer = () => {
                         <li role="none"><a role="menuitem" href="https://www.ableton.com/en/account/add_license/">Register Live or Push &gt;</a></li>
                         <li role="none"><a role="menuitem" href="https://www.ableton.com/en/about/">About Ableton &gt;</a></li>
                         <li role="none"><a role="menuitem" href="https://www.ableton.com/en/jobs/">Jobs &gt;</a></li>
-                        <li>
+                        <li role="none">
                             <ul className="footer--nav--ul--socials" role="menu">
                                 <li role="none"><a role="menuitem" href="http://facebook.com/ableton" className="facebook--link"><img src={LogoFacebook} alt="Our Facebook"/></a></li>
                                 <li role="none"><a role="menuitem" href="http://twitter.com/ableton" className="twitter--link"><img src={LogoTwitter} alt="Our Twitter"/></a></li>
