@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const PagesMenu = () => {
 
-    {var prevScrollpos = window.pageYOffset;
+    var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
@@ -11,7 +11,7 @@ const PagesMenu = () => {
         document.querySelector(".pages--nav").style.top = "-100px";
     }
     prevScrollpos = currentScrollPos;
-    }}
+    }
 
     return (    
         <nav className="pages--nav">
