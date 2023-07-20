@@ -13,7 +13,7 @@ const Header = () => {
         return () => window.removeEventListener("resize", updateMedia);
     });
 
-    document.body.style.overflow = openMenu ? 'hidden' : 'unset';
+    // document.body.style.overflow = openMenu ? 'hidden' : 'unset';
 
     return (
         <>
@@ -24,24 +24,28 @@ const Header = () => {
                         Menu <span className="button--span">{!openMenu ? "⏷" : "⏶"}</span>
                     </button>
                     <nav className="mobile--header--nav" aria-label="Header">
-                        <ul className={`mobile--header--nav--ul ${!openMenu ? "" : "show"}`} role="menubar">
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/live/">Live</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/push/">Push</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/link/">Link</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/shop/">Shop</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/packs/">Packs</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/help/">Help</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/trial/">Try Live for free</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/login/?next=/en/about/" className="mobile--login">Log in or register</a></li>
+                        <div className={`mobile--header--nav--ul ${!openMenu ? "" : "show"}`} role="menubar">
+                            <ul class="mobile--nav--ul" role="menubar">
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/live/">Live</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/push/">Push</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/link/">Link</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/shop/">Shop</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/packs/">Packs</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/help/">Help</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/trial/">Try Live for free</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/login/?next=/en/about/" className="mobile--login">Log in or register</a></li>
+                            </ul>
                             
                             <h3 className="mobile--header--heading">More on Ableton.com:</h3>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/blog/" className="mobile--header--heading1--link">Blog</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/classroom/" className="mobile--header--heading1--link">Ableton for the Classroom</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/colleges-universities/" className="mobile--header--heading1--link">Ableton for Colleges and Universities</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/certified-training/" className="mobile--header--heading1--link">Certified Training</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/about/" className="mobile--header--heading1--link mobile--about">About Ableton</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/jobs/" className="mobile--header--heading1--link">Jobs</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/ausbildung/" className="mobile--header--heading1--link">Apprenticeships</a></li>
+                            <ul class="mobile--nav--ul" role="menubar">
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/blog/" className="mobile--header--heading1--link">Blog</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/classroom/" className="mobile--header--heading1--link">Ableton for the Classroom</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/colleges-universities/" className="mobile--header--heading1--link">Ableton for Colleges and Universities</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/certified-training/" className="mobile--header--heading1--link">Certified Training</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/about/" className="mobile--header--heading1--link mobile--about">About Ableton</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/jobs/" className="mobile--header--heading1--link">Jobs</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.ableton.com/en/ausbildung/" className="mobile--header--heading1--link">Apprenticeships</a></li>
+                            </ul>
 
                             <h3 className="mobile--header--heading">More from Ableton:</h3>
                             <ul role="none" className="mobile--header--nav--ul--li--container">
@@ -70,7 +74,7 @@ const Header = () => {
                                     </a>
                                 </li>
                             </ul>
-                        </ul>
+                        </div>
                     </nav>
                 </header>
             ) : (

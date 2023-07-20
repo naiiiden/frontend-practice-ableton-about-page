@@ -84,6 +84,12 @@ img {
     max-height: 45rem;
   }
 }
+.mobile--header--nav--ul .mobile--nav--ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  list-style-type: none;
+}
 .mobile--header--nav--ul a {
   color: #fff;
   text-decoration: none;

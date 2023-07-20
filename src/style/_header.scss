@@ -51,6 +51,13 @@
         }
     }
 
+    .mobile--nav--ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        list-style-type: none;
+    }
+
     a {
         color: #fff;
         text-decoration: none;
