@@ -26,8 +26,8 @@ const Jobs = () => {
                 <div className="job--listing--ul">
                     <h3 className="job--listing--ul--heading">Product Development</h3>
                     <ul className="job--listing--ul">
-                        <li><a className="job--listing--link" href="https://www.ableton.com/en/jobs/apply/698090"><span className="job--title">QA Engineer, Hardware (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
-                        <li><a className="job--listing--link" href="https://www.ableton.com/en/jobs/apply/639242"><span className="job--title">Release Engineer (d/f/m) &gt;</span><span className="job--location">Ableton AG / Germany</span></a></li>
+                        <JobListing href="https://www.ableton.com/en/jobs/apply/698090" jobTitle="QA Engineer, Hardware (d/f/m) &gt;" jobLocation="Ableton AG / Germany"/>
+                        <JobListing href="https://www.ableton.com/en/jobs/apply/639242" jobTitle="Release Engineer (d/f/m) &gt;" jobLocation="Ableton AG / Germany"/>
                     </ul>
                 </div>
             </div>
