@@ -387,7 +387,7 @@ img {
   flex-direction: column;
   gap: 1.25rem;
 }
-.jobs--container .jobs--job--listing--container .job--listing--ul:nth-of-type(1) {
+.jobs--container .jobs--job--listing--container .job--listing--ul:first-child {
   padding-bottom: 2.25rem;
   border-bottom: 2px solid #eee;
 }
@@ -474,9 +474,6 @@ img {
   }
   .jobs--container .jobs--p {
     font-size: 1.25rem;
-  }
-  .jobs--container .jobs--job--listing--container .job--listing--ul:nth-of-type(1) {
-    margin-top: 2rem;
   }
   .jobs--container .jobs--job--listing--container .job--listing--ul .job--listing--ul--heading {
     font-size: 1.25rem;
