@@ -888,11 +888,8 @@ footer .footer--logo--container .footer--logo--text--container p {
   }
 }
 @media screen and (min-width: 768px) {
-  footer {
-    gap: 4.16667vw;
-  }
-  footer .footer--nav {
-    gap: 4.16667vw;
+  footer, .footer--nav, .footer--nav--ul--container {
+    gap: 4.16667vw !important;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -921,17 +918,11 @@ footer .footer--logo--container .footer--logo--text--container p {
   }
 }
 @media screen and (min-width: 1280px) {
-  footer .footer--nav .footer--nav--ul--container .footer--nav--heading {
+  footer .footer--nav .footer--nav--ul--container .footer--nav--heading, footer .footer--nav .footer--nav--ul--container .footer--nav--ul a, footer .footer--nav .footer--nav--ul--container .footer--newsletter--container .footer--newsletter--p {
     font-size: 1.25rem;
   }
   footer .footer--nav .footer--nav--ul--container .footer--nav--ul {
     min-width: 250px;
-  }
-  footer .footer--nav .footer--nav--ul--container .footer--nav--ul a {
-    font-size: 1.25rem;
-  }
-  footer .footer--nav .footer--nav--ul--container .footer--newsletter--container .footer--newsletter--p {
-    font-size: 1.25rem;
   }
 }
 @media screen and (min-width: 1750px) {

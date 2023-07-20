@@ -168,12 +168,8 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    footer {
-        gap: 4.16667vw;
-
-        .footer--nav {
-            gap: 4.16667vw;
-        }
+    footer, .footer--nav, .footer--nav--ul--container {
+        gap: 4.16667vw !important;
     }
 }
 
@@ -217,22 +213,12 @@ footer {
     footer {
         .footer--nav {
             .footer--nav--ul--container {
-                .footer--nav--heading {
+                .footer--nav--heading, .footer--nav--ul a, .footer--newsletter--container .footer--newsletter--p {
                     font-size: 1.25rem;
                 }
 
                 .footer--nav--ul {
                     min-width: 250px;
-
-                    a {
-                        font-size: 1.25rem;
-                    }
-                }
-
-                .footer--newsletter--container {
-                    .footer--newsletter--p {
-                        font-size: 1.25rem;
-                    }
                 }
             }
         }
