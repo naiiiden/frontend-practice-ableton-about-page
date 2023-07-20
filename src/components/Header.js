@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ReactComponent as Logo } from "../images/logo.svg";
+import HeaderMoreLink from "./HeaderMoreLink";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -12,8 +13,6 @@ const Header = () => {
         window.addEventListener("resize", updateMedia);
         return () => window.removeEventListener("resize", updateMedia);
     });
-
-    // document.body.style.overflow = openMenu ? 'hidden' : 'unset';
 
     return (
         <>
@@ -49,30 +48,30 @@ const Header = () => {
 
                             <h3 className="mobile--header--heading">More from Ableton:</h3>
                             <ul className="mobile--header--nav--ul--li--container">
-                                <li>
-                                    <a role="menuitem" href="https://www.ableton.com/en/blog/loop/" className="mobile--header--nav--ul--li--subcontainer">
-                                        <h4>Loop</h4>
-                                        <p>Watch talks, Performances and Features from Ableton's Summit for Music Makers</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a role="menuitem" href="https://learningmusic.ableton.com/" className="mobile--header--nav--ul--li--subcontainer">
-                                        <h4>Learning Music</h4>
-                                        <p>Learn the fundamentals of music making right in your browser.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a role="menuitem" href="https://learningsynths.ableton.com/" className="mobile--header--nav--ul--li--subcontainer">
-                                        <h4>Learning Synths</h4>
-                                        <p>Get started with synthesis using a web-based synth and accompanying lessons.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a role="menuitem" href="https://makingmusic.ableton.com/" className="mobile--header--nav--ul--li--subcontainer">
-                                        <h4>Making Music</h4>
-                                        <p>Some tips from 74 Creative Strategies for Electronic Producers.</p>
-                                    </a>
-                                </li>
+                                <HeaderMoreLink
+                                    href="https://www.ableton.com/en/blog/loop/"
+                                    className="mobile--header--nav--ul--li--subcontainer"
+                                    h4="Loop"
+                                    p="Watch talks, Performances and Features from Ableton's Summit for Music Makers"
+                                />
+                                <HeaderMoreLink
+                                    href="https://learningmusic.ableton.com/"
+                                    className="mobile--header--nav--ul--li--subcontainer"
+                                    h4="Learning Music"
+                                    p="Learn the fundamentals of music making right in your browser."
+                                />
+                                <HeaderMoreLink
+                                    href="https://learningsynths.ableton.com/"
+                                    className="mobile--header--nav--ul--li--subcontainer"
+                                    h4="Learning Synths"
+                                    p="Get started with synthesis using a web-based synth and accompanying lessons."
+                                />
+                                <HeaderMoreLink
+                                    href="https://makingmusic.ableton.com/"
+                                    className="mobile--header--nav--ul--li--subcontainer"
+                                    h4="Making Music"
+                                    p="Some tips from 74 Creative Strategies for Electronic Producers."
+                                />
                             </ul>
                         </div>
                     </nav>
@@ -106,30 +105,30 @@ const Header = () => {
                         </ul>
                         <h3 className="header--nav--more--ul--heading">More from Ableton:</h3>
                         <ul className="nav--more--ul2" role="menu">
-                            <li>
-                                <a role="menuitem" href="https://www.ableton.com/en/blog/loop/" className="nav--more--ul2--link">
-                                    <h4>Loop</h4>
-                                    <p>Watch talks, Performances and Features from Ableton's Summit for Music Makers</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a role="menuitem" href="https://learningmusic.ableton.com/" className="nav--more--ul2--link">
-                                    <h4>Learning Music</h4>
-                                    <p>Learn the fundamentals of music making right in your browser.</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a role="menuitem" href="https://learningsynths.ableton.com/" className="nav--more--ul2--link">
-                                    <h4>Learning Synths</h4>
-                                    <p>Get started with synthesis using a web-based synth and accompanying lessons.</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a role="menuitem" href="https://makingmusic.ableton.com/" className="nav--more--ul2--link">
-                                    <h4>Making Music</h4>
-                                    <p>Some tips from 74 Creative Strategies for Electronic Producers.</p>
-                                </a>
-                            </li>
+                            <HeaderMoreLink
+                                href="https://www.ableton.com/en/blog/loop/"
+                                className="nav--more--ul2--link"
+                                h4="Loop"
+                                p="Watch talks, Performances and Features from Ableton's Summit for Music Makers"
+                            />
+                            <HeaderMoreLink
+                                href="https://learningmusic.ableton.com/"
+                                className="nav--more--ul2--link"
+                                h4="Learning Music"
+                                p="Learn the fundamentals of music making right in your browser."
+                            />
+                            <HeaderMoreLink
+                                href="https://learningsynths.ableton.com/"
+                                className="nav--more--ul2--link"
+                                h4="Learning Synths"
+                                p="Get started with synthesis using a web-based synth and accompanying lessons."
+                            />
+                            <HeaderMoreLink
+                                href="https://makingmusic.ableton.com/"
+                                className="nav--more--ul2--link"
+                                h4="Making Music"
+                                p="Some tips from 74 Creative Strategies for Electronic Producers."
+                            />
                         </ul>
                     </nav>
                 </header>
