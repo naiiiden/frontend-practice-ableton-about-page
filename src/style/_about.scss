@@ -42,8 +42,7 @@
     }
 
     .about--video--container {
-        margin-left: 8.33333vw;
-        margin-right: 8.33333vw;
+        margin: 0 8.33333vw;
 
         iframe {
             border: none;
@@ -58,9 +57,7 @@
     }
 
     .about--jobs--container {
-        margin-left: 8.33333vw;
-        margin-right: 8.33333vw;
-        margin-bottom: 8.33333vw;
+        margin: 0 8.33333vw 8.33333vw 8.33333vw;
         
         .about--jobs--collage {
             height: 50vw;
