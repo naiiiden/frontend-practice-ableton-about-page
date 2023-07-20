@@ -24,12 +24,14 @@ const Footer = () => {
                             </ul>
                         </li>
                     </ul>
-                    <ul className="footer--nav--ul education" role="menubar">
+                    <div className="footer--nav--ul">
                         <h3 className="footer--nav--heading">Education</h3>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/shop/education/">Offers for students and teachers &gt;</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/classroom/">Ableton for the Classroom &gt;</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges and Universities &gt;</a></li>
-                    </ul>
+                        <ul className="footer--nav--ul education" role="menubar">
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/shop/education/">Offers for students and teachers &gt;</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/classroom/">Ableton for the Classroom &gt;</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges and Universities &gt;</a></li>
+                        </ul>
+                    </div>
                     <div className="footer--newsletter--container newsletter">
                         <h3 className="footer--nav--heading">Sign up to our newsletter</h3>
                         <p className="footer--newsletter--p">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
@@ -40,17 +42,21 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer--nav--ul--container">
-                    <ul className="footer--nav--ul" role="menubar">
+                    <div className="footer--nav--ul">
                         <h3 className="footer--nav--heading">Community</h3>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/community/user-groups/">Find Ableton User Groups &gt;</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/certified-training/">Find Certified Training &gt;</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/education/certification-program/">Become a Certified Trainer &gt;</a></li>
-                    </ul>
-                    <ul className="footer--nav--ul" role="menubar">
+                        <ul className="footer--nav--ul" role="menubar">
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/community/user-groups/">Find Ableton User Groups &gt;</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/certified-training/">Find Certified Training &gt;</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/education/certification-program/">Become a Certified Trainer &gt;</a></li>
+                        </ul>
+                    </div>
+                    <div className="footer--nav--ul">
                         <h3 className="footer--nav--heading">Distributors</h3>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/distributors/">Find Distributors &gt;</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/try-push-in-store/">Try Push in-store &gt;</a></li>
-                    </ul>
+                        <ul className="footer--nav--ul" role="menubar">
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/distributors/">Find Distributors &gt;</a></li>
+                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/try-push-in-store/">Try Push in-store &gt;</a></li>
+                        </ul>
+                    </div>
                     <div className="footer--location--container">
                         <h3 className="footer--nav--heading">Language and Location</h3>
                         <form className="footer--language--form">
@@ -328,15 +334,14 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer--logo--container">
-                        <ul className="footer--nav--ul">
-                            <li><a href="https://www.ableton.com/en/contact-us/">Contact Us</a></li>
-                            <li><a href="https://www.ableton.com/en/press/">Press Resources</a></li>
-                            <li><a href="https://www.ableton.com/en/legal/">Legal Info</a></li>
-                            <li><a href="https://www.ableton.com/en/privacy-policy/">Privacy Policy</a></li>
-                            <li><a href="https://www.ableton.com/en/cookie-settings/">Cookie Settings</a></li>
-                            <li><a href="https://www.ableton.com/en/imprint/">Imprint</a></li>
-                        </ul>
-
+                    <ul className="footer--nav--ul">
+                        <li><a href="https://www.ableton.com/en/contact-us/">Contact Us</a></li>
+                        <li><a href="https://www.ableton.com/en/press/">Press Resources</a></li>
+                        <li><a href="https://www.ableton.com/en/legal/">Legal Info</a></li>
+                        <li><a href="https://www.ableton.com/en/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="https://www.ableton.com/en/cookie-settings/">Cookie Settings</a></li>
+                        <li><a href="https://www.ableton.com/en/imprint/">Imprint</a></li>
+                    </ul>
                     <div className="footer--logo--text--container">
                         <img src={LogoRegular} alt="Ableton's logo" className="footer--logo--container--img"/>
                         <p className="footer--logo--container--text">Made in Berlin</p>

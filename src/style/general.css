@@ -781,15 +781,15 @@ footer .footer--nav .footer--nav--ul--container.container1 .socials {
 footer .footer--nav .footer--nav--ul--container.container1 .education {
   order: 3;
 }
+footer .footer--nav .footer--nav--ul--container h3 {
+  font-weight: 500;
+  font-size: 1rem;
+}
 footer .footer--nav .footer--nav--ul--container .footer--nav--ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
-footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--heading {
-  font-weight: 500;
-  font-size: 1rem;
 }
 footer .footer--nav .footer--nav--ul--container .footer--nav--ul a {
   color: #000;
@@ -826,10 +826,6 @@ footer .footer--nav .footer--nav--ul--container .footer--newsletter--container {
   flex-direction: column;
   gap: 0.5rem;
 }
-footer .footer--nav .footer--nav--ul--container .footer--newsletter--container .footer--nav--heading {
-  font-weight: 500;
-  font-size: 1rem;
-}
 footer .footer--nav .footer--nav--ul--container .footer--newsletter--container .footer--newsletter--p {
   line-height: 1.5;
 }
@@ -852,10 +848,6 @@ footer .footer--nav .footer--nav--ul--container .footer--newsletter--container f
   font-family: inherit;
   font-size: inherit;
   border: none;
-}
-footer .footer--nav .footer--nav--ul--container .footer--location--container .footer--nav--heading {
-  font-size: 1rem;
-  font-weight: 500;
 }
 footer .footer--nav .footer--nav--ul--container .footer--location--container .footer--language--form {
   margin-top: 0.75rem;
@@ -963,16 +955,13 @@ footer .footer--logo--container .footer--logo--text--container p {
   }
 }
 @media screen and (min-width: 1280px) {
+  footer .footer--nav .footer--nav--ul--container .footer--nav--heading {
+    font-size: 1.25rem;
+  }
   footer .footer--nav .footer--nav--ul--container .footer--nav--ul {
     min-width: 250px;
   }
-  footer .footer--nav .footer--nav--ul--container .footer--nav--ul .footer--nav--heading {
-    font-size: 1.25rem;
-  }
   footer .footer--nav .footer--nav--ul--container .footer--nav--ul a {
-    font-size: 1.25rem;
-  }
-  footer .footer--nav .footer--nav--ul--container .footer--newsletter--container .footer--nav--heading {
     font-size: 1.25rem;
   }
   footer .footer--nav .footer--nav--ul--container .footer--newsletter--container .footer--newsletter--p {
