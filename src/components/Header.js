@@ -13,6 +13,8 @@ const Header = () => {
         return () => window.removeEventListener("resize", updateMedia);
     });
 
+    document.body.style.overflow = openMenu ? 'hidden' : 'unset';
+
     return (
         <>
             {!isDesktop ? (
