@@ -24,7 +24,7 @@ const Footer = () => {
                             </ul>
                         </li>
                     </ul>
-                    <div className="footer--nav--ul">
+                    <div className="footer--nav--ul education">
                         <h3 className="footer--nav--heading">Education</h3>
                         <ul className="footer--nav--ul education" role="menubar">
                             <li role="none"><a role="menuitem" href="https://www.ableton.com/en/shop/education/">Offers for students and teachers &gt;</a></li>

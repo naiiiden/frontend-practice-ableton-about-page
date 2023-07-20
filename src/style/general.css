@@ -772,15 +772,6 @@ footer .footer--nav .footer--nav--ul--container {
   flex-direction: column;
   gap: 8.33333vw;
 }
-footer .footer--nav .footer--nav--ul--container.container1 .newsletter {
-  order: 1;
-}
-footer .footer--nav .footer--nav--ul--container.container1 .socials {
-  order: 2;
-}
-footer .footer--nav .footer--nav--ul--container.container1 .education {
-  order: 3;
-}
 footer .footer--nav .footer--nav--ul--container h3 {
   font-weight: 500;
   font-size: 1rem;
@@ -926,15 +917,6 @@ footer .footer--logo--container .footer--logo--text--container p {
   }
   footer .footer--nav .footer--nav--ul--container {
     flex-direction: row;
-  }
-  footer .footer--nav .footer--nav--ul--container.container1 .newsletter {
-    order: unset;
-  }
-  footer .footer--nav .footer--nav--ul--container.container1 .socials {
-    order: unset;
-  }
-  footer .footer--nav .footer--nav--ul--container.container1 .education {
-    order: unset;
   }
   footer .footer--nav .footer--nav--ul--container .footer--nav--ul {
     min-width: 232px;

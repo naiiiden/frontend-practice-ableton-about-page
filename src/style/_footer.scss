@@ -19,20 +19,6 @@ footer {
             flex-direction: column;
             gap: 8.33333vw;
 
-            &.container1 {
-                .newsletter {
-                    order: 1;
-                }
-
-                .socials {
-                    order: 2;
-                }
-
-                .education {
-                    order: 3;
-                }
-            }
-
             h3 {
                 font-weight: 500;
                 font-size: 1rem;
@@ -224,20 +210,6 @@ footer {
         .footer--nav {
             .footer--nav--ul--container {
                 flex-direction: row;
-
-                &.container1 {
-                    .newsletter {
-                        order: unset;
-                    }
-    
-                    .socials {
-                        order: unset;
-                    }
-    
-                    .education {
-                        order: unset;
-                    }
-                }
 
                 .footer--nav--ul {
                     min-width: 232px;
