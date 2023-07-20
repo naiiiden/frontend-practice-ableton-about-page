@@ -23,7 +23,6 @@ const About = () => {
                 <div className="video--container">
                     {/* <img className="video--poster--img" src="https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3&q=50&w=700" alt=""/> */}
                     <iframe src="https://www.youtube.com/embed/9SbnhgjeyXA"
-                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                         title="Embedded Youtube video"
