@@ -71,19 +71,8 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-animation: height 0.1s ease-in-out;
-          animation: height 0.1s ease-in-out;
+  animation: height 0.1s ease-in-out;
   z-index: 100;
-}
-@-webkit-keyframes height {
-  0% {
-    opacity: 0;
-    max-height: 0;
-  }
-  100% {
-    opacity: 1;
-    max-height: 45rem;
-  }
 }
 @keyframes height {
   0% {
@@ -193,8 +182,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  -webkit-animation: height 0.3s ease-in-out;
-          animation: height 0.3s ease-in-out;
+  animation: height 0.3s ease-in-out;
 }
 @keyframes height {
   0% {
@@ -265,7 +253,6 @@ img {
 }
 .pages--nav {
   padding: 1rem 1.25rem;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   transition: top 0.3s;
