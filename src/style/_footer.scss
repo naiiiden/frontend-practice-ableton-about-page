@@ -14,6 +14,19 @@ footer {
         flex-direction: column;
         gap: 8.33333vw;
 
+        .footer--nav--ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+
+            a {
+                color: #000;
+                text-decoration: none;
+                line-height: 1.5;
+            }
+        }
+
         .footer--nav--ul--container {    
             display: flex;
             flex-direction: column;
@@ -24,50 +37,37 @@ footer {
                 font-size: 1rem;
             }
 
-            .footer--nav--ul {
+            .footer--nav--ul--socials {
                 list-style-type: none;
                 display: flex;
-                flex-direction: column;
-                gap: .5rem;
+                margin-top: .625rem;
+                gap: .625rem;
 
-                a {
-                    color: #000;
-                    text-decoration: none;
-                    line-height: 1.5;
+                .facebook--link {
+                    background: #3477f2;
+                    display: grid;
+                    place-content: center;
+                    width: 32px;
                 }
 
-                .footer--nav--ul--socials {
-                    list-style-type: none;
-                    display: flex;
-                    margin-top: .625rem;
-                    gap: .625rem;
+                .twitter--link {
+                    background: #1da1f2;
+                    @extend .facebook--link;
+                }
 
-                    .facebook--link {
-                        background: #3477f2;
-                        display: grid;
-                        place-content: center;
-                        width: 32px;
-                    }
+                .youtube--link {
+                    background: #ff001d;
+                    @extend .facebook--link;
+                }
 
-                    .twitter--link {
-                        background: #1da1f2;
-                        @extend .facebook--link;
-                    }
+                .reddit--link {
+                    background: #f77737;
+                    @extend .facebook--link;
+                }
 
-                    .youtube--link {
-                        background: #ff001d;
-                        @extend .facebook--link;
-                    }
-
-                    .reddit--link {
-                        background: #f77737;
-                        @extend .facebook--link;
-                    }
-
-                    img {
-                        width: 32px;
-                        height: 32px;
-                    }
+                img {
+                    width: 32px;
+                    height: 32px;
                 }
             }
 
@@ -122,14 +122,8 @@ footer {
                     }
     
                     .footer--country--select {
+                        @extend .footer--language--select;
                         padding: .35rem 50px .35rem .75rem;
-                        background: #eee;
-                        font-family: inherit;
-                        font-size: .875rem;
-                        font-weight: 500;
-                        cursor: pointer;
-                        border: none;
-                        height: 1.875rem;
                         max-width: 200px;
                     }
                 }
@@ -142,19 +136,9 @@ footer {
         flex-direction: column;
         gap: 8.33333vw;
 
-        .footer--nav--ul {
-            list-style-type: none;
-            display: flex;
-            flex-direction: column;
-            gap: .5rem;
-
-            a {
-                color: #000;
-                text-decoration: none;
-                line-height: 1.5;
-                font-size: .875rem;
-                font-weight: 500;
-            }
+        a {
+            font-size: .875rem;
+            font-weight: 500;
         }
 
         .footer--logo--text--container {
@@ -172,21 +156,13 @@ footer {
 
 @media screen and (min-width: 425px) {
     footer {
-        .footer--nav {
-            .footer--nav--ul--container {
-                .footer--nav--ul {
-                    .footer--nav--ul--socials {
-                        .facebook--link {
-                            width: 40px;
-                        }
+        .facebook--link {
+            width: 40px !important;
+        }
 
-                        img {
-                            height: 40px;
-                            width: 40px;
-                        }
-                    }
-                }
-            }
+        .footer--nav--ul--socials img {
+            height: 40px !important;
+            width: 40px !important;
         }
     }
 }
