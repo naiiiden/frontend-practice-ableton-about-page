@@ -12,24 +12,24 @@ const Footer = () => {
              <nav className="footer--nav" aria-label="Footer">
                 <div className="footer--nav--ul--container container1">
                     <ul className="footer--nav--ul socials" role="menubar">
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/account/add_license/">Register Live or Push &gt;</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/about/">About Ableton &gt;</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.ableton.com/en/jobs/">Jobs &gt;</a></li>
-                        <li role="none">
+                        <li><a role="menuitem" href="https://www.ableton.com/en/account/add_license/">Register Live or Push &gt;</a></li>
+                        <li><a role="menuitem" href="https://www.ableton.com/en/about/">About Ableton &gt;</a></li>
+                        <li><a role="menuitem" href="https://www.ableton.com/en/jobs/">Jobs &gt;</a></li>
+                        <li>
                             <ul className="footer--nav--ul--socials" role="menu">
-                                <li role="none"><a role="menuitem" href="http://facebook.com/ableton" className="facebook--link"><img src={LogoFacebook} alt="Our Facebook"/></a></li>
-                                <li role="none"><a role="menuitem" href="http://twitter.com/ableton" className="twitter--link"><img src={LogoTwitter} alt="Our Twitter"/></a></li>
-                                <li role="none"><a role="menuitem" href="http://youtube.com/ableton" className="youtube--link"><img src={LogoYoutube} alt="Our Youtube"/></a></li>
-                                <li role="none"><a role="menuitem" href="http://instagram.com/ableton" className="reddit--link"><img src={LogoReddit} alt="Our Reddit"/></a></li>
+                                <li><a role="menuitem" href="http://facebook.com/ableton" className="facebook--link"><img src={LogoFacebook} alt="Our Facebook"/></a></li>
+                                <li><a role="menuitem" href="http://twitter.com/ableton" className="twitter--link"><img src={LogoTwitter} alt="Our Twitter"/></a></li>
+                                <li><a role="menuitem" href="http://youtube.com/ableton" className="youtube--link"><img src={LogoYoutube} alt="Our Youtube"/></a></li>
+                                <li><a role="menuitem" href="http://instagram.com/ableton" className="reddit--link"><img src={LogoReddit} alt="Our Reddit"/></a></li>
                             </ul>
                         </li>
                     </ul>
                     <div className="footer--nav--ul education">
                         <h3 className="footer--nav--heading">Education</h3>
                         <ul className="footer--nav--ul education" role="menubar">
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/shop/education/">Offers for students and teachers &gt;</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/classroom/">Ableton for the Classroom &gt;</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges and Universities &gt;</a></li>
+                            <li><a role="menuitem" href="https://www.ableton.com/en/shop/education/">Offers for students and teachers &gt;</a></li>
+                            <li><a role="menuitem" href="https://www.ableton.com/en/classroom/">Ableton for the Classroom &gt;</a></li>
+                            <li><a role="menuitem" href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges and Universities &gt;</a></li>
                         </ul>
                     </div>
                     <div className="footer--newsletter--container newsletter">
@@ -45,16 +45,16 @@ const Footer = () => {
                     <div className="footer--nav--ul">
                         <h3 className="footer--nav--heading">Community</h3>
                         <ul className="footer--nav--ul" role="menubar">
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/community/user-groups/">Find Ableton User Groups &gt;</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/certified-training/">Find Certified Training &gt;</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/education/certification-program/">Become a Certified Trainer &gt;</a></li>
+                            <li><a role="menuitem" href="https://www.ableton.com/en/community/user-groups/">Find Ableton User Groups &gt;</a></li>
+                            <li><a role="menuitem" href="https://www.ableton.com/en/certified-training/">Find Certified Training &gt;</a></li>
+                            <li><a role="menuitem" href="https://www.ableton.com/en/education/certification-program/">Become a Certified Trainer &gt;</a></li>
                         </ul>
                     </div>
                     <div className="footer--nav--ul">
                         <h3 className="footer--nav--heading">Distributors</h3>
                         <ul className="footer--nav--ul" role="menubar">
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/distributors/">Find Distributors &gt;</a></li>
-                            <li role="none"><a role="menuitem" href="https://www.ableton.com/en/try-push-in-store/">Try Push in-store &gt;</a></li>
+                            <li><a role="menuitem" href="https://www.ableton.com/en/distributors/">Find Distributors &gt;</a></li>
+                            <li><a role="menuitem" href="https://www.ableton.com/en/try-push-in-store/">Try Push in-store &gt;</a></li>
                         </ul>
                     </div>
                     <div className="footer--location--container">
