@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const About = () => {
+    const [playVideo, setPlayVideo] = useState(false);
+
     return (
         <main className="about--container">
             <div className="about--heading--container">
@@ -21,12 +25,23 @@ const About = () => {
             </div>
             <figure className="about--video--container">
                 <div className="video--container">
-                    {/* <img className="video--poster--img" src="https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3&q=50&w=700" alt=""/> */}
-                    <iframe src="https://www.youtube.com/embed/9SbnhgjeyXA"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        title="Embedded Youtube video"
-                    />
+                    <div className="video-subcontainer" style={{
+                        "display": `${playVideo && "none"}`
+                    }}>
+                        <img className="video--poster--img placeholder" src="https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3&q=50&w=700" alt=""/>
+                        <button onClick={() => (setPlayVideo(true))} className="play">
+                            <svg class="abl-circle__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56"><polygon fill="currentColor" points="0 0 0 56 48 28 0 0"></polygon></svg>
+                        </button>
+                    </div>
+                    {playVideo && 
+                        <iframe src="https://www.youtube.com/embed/9SbnhgjeyXA?autoplay=1&mute=0"
+                            width="100%" 
+                            height="100%" 
+                            allow="autoplay"
+                            allowFullScreen
+                            title="Why Ableton - Juanpe Bolivar"
+                        />
+                    }
                     <figcaption className="video--caption">Why Ableton - Juanpe Bolivar</figcaption>
                 </div>
             </figure>
