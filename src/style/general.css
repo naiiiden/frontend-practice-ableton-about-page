@@ -759,6 +759,16 @@ img {
     width: 50vw;
     height: 28.25vw;
   }
+  .about--container .about--video--container .video-subcontainer button, .about--container .about--video--container iframe button {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  .about--container .about--video--container .video-subcontainer button svg, .about--container .about--video--container iframe button svg {
+    top: 2.0625rem;
+    left: 2.4375rem;
+    width: 1.875rem;
+    height: 2.125rem;
+  }
   .about--container .about--jobs--container {
     display: flex;
     height: 41.66667vw;

@@ -320,6 +320,18 @@
             .video-subcontainer, iframe {
                 width: 50vw;
                 height: 28.25vw;
+
+                button {
+                    width: 6.25rem;
+                    height: 6.25rem;
+
+                    svg {
+                        top: 2.0625rem;
+                        left: 2.4375rem;
+                        width: 1.875rem;
+                        height: 2.125rem;
+                    }
+                }
             }
         }
 
