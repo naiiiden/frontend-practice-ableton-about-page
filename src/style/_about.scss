@@ -44,10 +44,23 @@
     .about--video--container {
         margin: 0 8.33333vw;
 
-        iframe {
-            border: none;
+        .video-subcontainer, iframe {
+            position: relative;
             width: 100%;
             height: 47.5vw;
+            border: none;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+
+            button {
+                position: relative;
+                border: 1px solid red;
+            }
         }
 
         .video--caption {
@@ -252,7 +265,7 @@
         .about--video--container {
             margin: auto;
 
-            iframe {
+            .video-subcontainer, iframe {
                 width: 66.66667vw;
                 height: 37.5vw;
             }
@@ -288,7 +301,7 @@
         }
 
         .about--video--container {
-            iframe {
+            .video-subcontainer, iframe {
                 width: 50vw;
                 height: 28.25vw;
             }
@@ -296,7 +309,6 @@
 
         .about--jobs--container {
             display: flex;
-            // width: 41.66667vw;
             height: 41.66667vw;
 
             .about--jobs--collage {

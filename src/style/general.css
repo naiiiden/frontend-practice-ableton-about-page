@@ -528,10 +528,21 @@ img {
 .about--container .about--video--container {
   margin: 0 8.33333vw;
 }
-.about--container .about--video--container iframe {
-  border: none;
+.about--container .about--video--container .video-subcontainer, .about--container .about--video--container iframe {
+  position: relative;
   width: 100%;
   height: 47.5vw;
+  border: none;
+}
+.about--container .about--video--container .video-subcontainer img, .about--container .about--video--container iframe img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.about--container .about--video--container .video-subcontainer button, .about--container .about--video--container iframe button {
+  position: relative;
+  border: 1px solid red;
 }
 .about--container .about--video--container .video--caption {
   font-size: 0.875rem;
@@ -706,7 +717,7 @@ img {
   .about--container .about--video--container {
     margin: auto;
   }
-  .about--container .about--video--container iframe {
+  .about--container .about--video--container .video-subcontainer, .about--container .about--video--container iframe {
     width: 66.66667vw;
     height: 37.5vw;
   }
@@ -729,7 +740,7 @@ img {
     font-size: 1.25rem;
     line-height: 1.5;
   }
-  .about--container .about--video--container iframe {
+  .about--container .about--video--container .video-subcontainer, .about--container .about--video--container iframe {
     width: 50vw;
     height: 28.25vw;
   }
