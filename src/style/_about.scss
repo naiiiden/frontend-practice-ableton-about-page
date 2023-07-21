@@ -49,6 +49,9 @@
             width: 100%;
             height: 47.5vw;
             border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             img {
                 position: absolute;
@@ -59,7 +62,20 @@
 
             button {
                 position: relative;
-                border: 1px solid red;
+                width: 5rem;
+                height: 5rem;
+                border-radius: 50%;
+                border: none;
+                background: blue;
+
+                svg {
+                    width: 1.625rem;
+                    height: 1.8125rem;
+                    fill: white;
+                    position: absolute;
+                    top: 1.625rem;
+                    left: 1.9375rem;
+                }
             }
         }
 
