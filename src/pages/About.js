@@ -30,7 +30,7 @@ const About = () => {
                     }}>
                         <img className="video--poster--img placeholder" src="https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3&q=50&w=700" alt=""/>
                         <button onClick={() => (setPlayVideo(true))} className="play">
-                            <svg class="abl-circle__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56"><polygon points="0 0 0 56 48 28 0 0"></polygon></svg>
+                            <svg className="abl-circle__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56"><polygon points="0 0 0 56 48 28 0 0"></polygon></svg>
                         </button>
                     </div>
                     {playVideo && 

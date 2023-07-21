@@ -1,8 +1,8 @@
 import Header from "./components/Header";
 import PagesMenu from "./components/PagesMenu";
-import About from "./components/About";
-import Jobs from "./components/Jobs";
-import Apprenticeships from "./components/Apprenticeships";
+import About from "./pages/About";
+import Jobs from "./pages/Jobs";
+import Apprenticeships from "./pages/Apprenticeships";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 
