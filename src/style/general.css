@@ -497,7 +497,7 @@ img {
   margin: 0 8.33333vw;
   display: grid;
   place-content: center;
-  background: url("https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=520&ixjsv=1.1.3&q=50&w=1333");
+  background: url("../images/about-hero.avif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -568,7 +568,7 @@ img {
 }
 .about--container .about--jobs--container .about--jobs--collage {
   height: 50vw;
-  background: url("https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&dpr=2&fit=crop&h=667&ixjsv=1.1.3&q=50&w=667");
+  background: url("../images/about-coll8.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -614,7 +614,7 @@ img {
   z-index: 1;
 }
 .about--container .about--collage--container1 .about--collage--large {
-  background: url("https://ableton-production.imgix.net/about/photo-1.jpg?dpr=2&fit=crop&h=667&ixjsv=1.1.3&q=50&w=667");
+  background: url("../images/about-coll1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -623,7 +623,7 @@ img {
   margin-left: 8.33333vw;
 }
 .about--container .about--collage--container1 .about--collage--small {
-  background: url("https://ableton-production.imgix.net/about/photo-2.jpg?dpr=2&fit=crop&h=400&ixjsv=1.1.3&q=50&w=533");
+  background: url("../images/about-coll2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -655,7 +655,7 @@ img {
   z-index: 1;
 }
 .about--container .about--collage--container2 .about--collage--subcontainer2 .about--collage--small2 {
-  background: url("https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=400&ixjsv=1.1.3&q=50&w=533");
+  background: url("../images/about-coll3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -663,7 +663,7 @@ img {
   height: 25vw;
 }
 .about--container .about--collage--container2 .about--collage--subcontainer2 .about--collage--small2:nth-of-type(2) {
-  background: url("https://ableton-production.imgix.net/about/photo-4.jpg?dpr=2&fit=crop&h=400&ixjsv=1.1.3&q=50&w=533");
+  background: url("../images/about-coll4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -672,7 +672,7 @@ img {
 .about--container .about--collage--container2 .about--collage--large2 {
   width: 41.66667vw;
   height: 41.66667vw;
-  background: url("https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=667&ixjsv=1.1.3&q=50&w=667");
+  background: url("../images/about-coll5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -700,7 +700,7 @@ img {
   z-index: 0;
 }
 .about--container .about--collage--container4 .about--collage--small4 {
-  background: url("https://ableton-production.imgix.net/about/photo-6-a.jpg?dpr=2&fit=crop&h=400&ixjsv=1.1.3&q=50&w=533");
+  background: url("../images/about-coll6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -710,7 +710,7 @@ img {
   z-index: 1;
 }
 .about--container .about--collage--container4 .about--collage--large4 {
-  background: url("https://ableton-production.imgix.net/about/photo-7.jpg?dpr=2&fit=crop&h=667&ixjsv=1.1.3&q=50&w=667");
+  background: url("../images/about-coll7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
