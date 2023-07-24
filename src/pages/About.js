@@ -1,5 +1,6 @@
 import { useState } from "react";
 import placeholder from '../images/poster-juanpe.jpg';
+import makers from '../images/about-makers.jpg';
 
 const About = () => {
     const [playVideo, setPlayVideo] = useState(false);
@@ -29,7 +30,6 @@ const About = () => {
                     <div className="video-subcontainer" style={{
                         "display": `${playVideo && "none"}`
                     }}>
-                        <img className="video--poster--img placeholder" src="https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3&q=50&w=700" alt=""/>
                         <img className="video--poster--img placeholder" src={placeholder} alt=""/>
                         <button onClick={() => (setPlayVideo(true))} className="play">
                             <svg className="abl-circle__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56"><polygon points="0 0 0 56 48 28 0 0"></polygon></svg>
@@ -64,7 +64,7 @@ const About = () => {
                 <p className="text--container--p">Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We’ve learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don’t always agree with each other, but opinion and debate are valued and openly encouraged.</p>
             </div>
             <div className="about--collage--container3">
-                <img src="https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3&q=50&w=1167" alt=""/>
+                <img src={makers} alt=""/>
             </div>
             <div className="about--text--container">
                 <h2 className="text--container--h2">We’re passionate about what we do, but we’re equally passionate about improving who we are.</h2>
