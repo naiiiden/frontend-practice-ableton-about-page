@@ -1,3 +1,9 @@
+@mixin background-props {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 .jobs--container {
     padding: 0 1.25rem 2rem 1.25rem;
     display: flex;
@@ -8,9 +14,7 @@
     .jobs--heading--container {
         height: 600px;
         background: url("../images/jobs-header1.avif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
+        @include background-props();
         display: grid;
         place-content: center;
 
@@ -77,9 +81,7 @@
     .jobs--container {
         .jobs--heading--container {
             background: url("../images/jobs-header2.avif");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
         }
     }
 }
@@ -88,9 +90,7 @@
     .jobs--container {
         .jobs--heading--container {
             background: url("../images/jobs-header3.avif");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
         }
     }
 }
@@ -121,9 +121,7 @@
     .jobs--container {
         .jobs--heading--container {
             background: url("../images/jobs-header4.avif");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
         }
 
         h2 {
@@ -138,9 +136,7 @@
         
         .jobs--heading--container {
             background: url("../images/jobs-header5.avif");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
             
             .jobs--heading {
                 font-size: 6.875rem;
