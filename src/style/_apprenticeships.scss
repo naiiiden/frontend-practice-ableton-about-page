@@ -1,9 +1,10 @@
+@import './mixins';
+
 .apprenticeships--container {
     padding: 2.5rem 1.25rem;
     border-bottom: 2px solid #eee;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    @include flex-col();
     gap: 1rem;
 
     .apprenticeships--h1 {

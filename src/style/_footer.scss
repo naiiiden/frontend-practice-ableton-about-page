@@ -1,8 +1,9 @@
+@import './mixins';
+
 footer {
     border-top: 2px solid #eee;
     padding: 8.33333vw;
-    display: flex;
-    flex-direction: column;
+    @include flex-col();
     gap: 8.33333vw;
 
     .footer--main--logo {
@@ -10,14 +11,12 @@ footer {
     }
 
     .footer--nav {
-        display: flex;
-        flex-direction: column;
+        @include flex-col();
         gap: 8.33333vw;
 
         .footer--nav--ul {
             list-style-type: none;
-            display: flex;
-            flex-direction: column;
+            @include flex-col();
             gap: .5rem;
 
             a {
@@ -28,8 +27,7 @@ footer {
         }
 
         .footer--nav--ul--container {    
-            display: flex;
-            flex-direction: column;
+            @include flex-col();
             gap: 8.33333vw;
 
             h3 {
@@ -72,8 +70,7 @@ footer {
             }
 
             .footer--newsletter--container {
-                display: flex;
-                flex-direction: column;
+                @include flex-col();
                 gap: .5rem;
 
                 .footer--newsletter--p {
@@ -132,8 +129,7 @@ footer {
     }
 
     .footer--logo--container {
-        display: flex;
-        flex-direction: column;
+        @include flex-col();
         gap: 8.33333vw;
 
         a {
