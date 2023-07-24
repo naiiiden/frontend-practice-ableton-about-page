@@ -481,10 +481,7 @@ img {
   .jobs--container .jobs--p {
     font-size: 1.25rem;
   }
-  .jobs--container .jobs--job--listing--container .job--listing--ul .job--listing--ul--heading {
-    font-size: 1.25rem;
-  }
-  .jobs--container .jobs--job--listing--container .job--listing--ul .job--listing--link {
+  .jobs--container .jobs--job--listing--container .job--listing--ul .job--listing--ul--heading, .jobs--container .jobs--job--listing--container .job--listing--ul .job--listing--link {
     font-size: 1.25rem;
   }
 }
