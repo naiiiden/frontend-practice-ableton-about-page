@@ -1,13 +1,4 @@
-@mixin background-props {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-@mixin flex-col {
-    display: flex;
-    flex-direction: column;
-}
+@import './mixins';
 
 .jobs--container {
     padding: 0 1.25rem 2rem 1.25rem;

@@ -1,6 +1,7 @@
+@import './mixins';
+
 .about--container {
-    display: flex;
-    flex-direction: column;
+    @include flex-col();
     
     .about--heading--container {
         min-height: calc(100vh - 120px);
@@ -8,9 +9,7 @@
         display: grid;
         place-content: center;
         background: url("../images/about-hero.avif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
+        @include background-props();
 
         h1 {
             font-size: 4rem;
@@ -20,8 +19,7 @@
     }
 
     .about--text--container {
-        display: flex;
-        flex-direction: column;
+        @include flex-col();
         gap: 1rem;
         margin: 8.33333vw;
 
@@ -91,9 +89,7 @@
         .about--jobs--collage {
             height: 50vw;
             background: url("../images/about-coll8.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
         }
 
         .about--jobs--text--container {
@@ -144,9 +140,7 @@
 
         .about--collage--large {
             background: url("../images/about-coll1.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
             width: 41.66667vw;
             height: 41.66667vw;
             margin-left: 8.33333vw;
@@ -154,9 +148,7 @@
 
         .about--collage--small {
             background: url("../images/about-coll2.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
             height: 25vw;
             width: 33.33333vw;
             margin-left: 8.33333vw;
@@ -182,25 +174,20 @@
         }
 
         .about--collage--subcontainer2 {
-            display: flex;
-            flex-direction: column;
+            @include flex-col();
             justify-content: center;
             height: 100%;
             z-index: 1;
 
             .about--collage--small2 {
                 background: url("../images/about-coll3.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: 50% 50%;
+                @include background-props();
                 width: 33.33333vw;
                 height: 25vw;
 
                 &:nth-of-type(2) {
                     background: url("../images/about-coll4.jpg");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: 50% 50%;
+                    @include background-props();
                     margin-top: 8.33333vw;
                 }
             }
@@ -210,9 +197,7 @@
             width: 41.66667vw;
             height: 41.66667vw;
             background: url("../images/about-coll5.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
             margin-left: 8.33333vw;
             z-index: 1;
         }
@@ -242,9 +227,7 @@
 
         .about--collage--small4 {
             background: url("../images/about-coll6.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
             width: 33.33333vw;
             height: 25vw;
             margin-left: 8.33333vw;
@@ -253,9 +236,7 @@
 
         .about--collage--large4 {
             background: url("../images/about-coll7.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
+            @include background-props();
             width: 41.66667vw;
             height: 41.66667vw;
             margin-left: 16.66667vw;

@@ -1,0 +1,10 @@
+@mixin background-props {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+}
