@@ -1,3 +1,5 @@
+@import './mixins';
+
 .mobile--header {
     border-bottom: 2px solid #eee;
     padding: 1.25rem;
@@ -28,8 +30,7 @@
         padding: 5rem 1.25rem 2rem 1.25rem;
         background: $blue;
         list-style-type: none;
-        display: flex;
-        flex-direction: column;
+        @include flex-col();
         gap: 1.25rem;
         position: absolute;
         top: 0;
@@ -52,8 +53,7 @@
     }
 
     .mobile--nav--ul {
-        display: flex;
-        flex-direction: column;
+        @include flex-col();
         gap: 1.25rem;
         list-style-type: none;
     }
@@ -94,8 +94,7 @@
         list-style-type: none;
 
         .mobile--header--nav--ul--li--subcontainer {
-            display: flex;
-            flex-direction: column;
+            @include flex-col();
             gap: .25rem;
             font-size: .875rem;
 
@@ -170,8 +169,7 @@
         width: 100%;
 
         &.show {
-            display: flex;
-            flex-direction: column;
+            @include flex-col();
             gap: .5rem;
             animation: height .3s ease-in-out;
 
